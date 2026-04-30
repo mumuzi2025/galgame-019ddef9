@@ -1,0 +1,3095 @@
+{
+  "meta": {
+    "tone": "温馨治愈，略带淡远的奇幻神秘感",
+    "theme": "现代奇幻治愈，轻百合/日常守护",
+    "title": "汐月町茶屋异闻录",
+    "author": "AI 生成",
+    "version": "0.1.0",
+    "description": "22岁的蒼依从大学文学系毕业后，回到家乡沿海老街汐月町继承外婆留下的街角茶屋。她生来拥有能看见寄身旧物、猫狗的残灵的「灵眼」，却始终对这份能力心存畏惧。月圆之夜神秘插画家凛突然到访，留下一只寄宿着寻主残灵的旧灯笼，知晓町内异事的童年好友芽衣也加入调查。随着残灵秘密揭开，渡使传承的抉择摆在蒼依面前，她既可以选择将印记交给凛，二人共同承担渡使职责、相伴余生；也可以选择封存奇幻秘密，和芽衣一同守护汐月町的平凡日常。"
+  },
+  "scenes": {
+    "yayi_sweet_pastry_shop__day": {
+      "name": "yayi_sweet_pastry_shop__day",
+      "origin": "main",
+      "commands": [
+        {
+          "text": "第三章 · 桂花甜馅藏旧闻",
+          "type": "chapter_title"
+        },
+        {
+          "src": "backgrounds/yayi_sweet_pastry_shop__day.jpg",
+          "type": "bg",
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/warm_healing.mp3",
+          "type": "bgm",
+          "fadeIn": 1000
+        },
+        {
+          "text": "镶嵌着卡通糖霜图案的玻璃门被推开，挂在门楣的铜制风铃叮当作响，黄油与鲜奶油的甜香瞬间裹着暖融融的热气扑到苍依脸上。",
+          "type": "narration"
+        },
+        {
+          "text": "刚出炉的海盐芝士杯子蛋糕整齐码在柜台的透明展柜里，表面撒的金桂碎在阳光下泛着细碎的暖光，是芽衣家小店独有的招牌。",
+          "type": "narration"
+        },
+        {
+          "text": "展柜里的海盐芝士杯子蛋糕还冒着淡淡的热气，上面撒的干桂花是去年秋天苍依帮芽衣在茶屋院子里摘的，香气比别处的更浓更甜。",
+          "type": "narration"
+        },
+        {
+          "text": "木质地板被店员擦得发亮，墙角的留声机正放着年代久远的昭和演歌，调子软乎乎的，和满室甜香揉在一起，让人瞬间放松下来。",
+          "type": "narration"
+        },
+        {
+          "text": "柜台后的白瓷罐里插着几支开得正好的桂花枝，风从半开的窗户吹进来，细碎的花瓣落在擦得干净的大理石台面上。",
+          "type": "narration"
+        },
+        {
+          "text": "苍依站在门口，手里拎着用米白色棉纸裹好的潮汐馒头，指尖还沾着茶屋蒸屉的余温。",
+          "type": "narration"
+        },
+        {
+          "text": "她今早蒸馒头的时候特意留了两个没有加桂花馅的咸口款，就是记得芽衣从小不爱吃甜口的桂花馅，每次都会单独给她留一份。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "芽衣？我带了今早刚蒸的潮汐馒头过来，你现在有空吗？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "src": "se/metal_tray_clink.mp3",
+          "type": "se"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "哎呀苍依你可算来了！我今早还在念叨要去你茶屋蹭茶喝呢，快进来坐！",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "扎着奶白色围裙的芽衣举着抹奶油的抹刀从后厨跑出来，发梢还沾着一点面粉，看见苍依手里的馒头眼睛亮了亮。",
+          "type": "narration"
+        },
+        {
+          "text": "我就知道你肯定给我留了没放桂花的咸口款！上次你蒸的我一口气吃了两个，连我妈都夸你手艺好。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "芽衣转身从展柜里拿了两个刚烤好的海盐芝士杯子蛋糕，放在印着小雏菊图案的瓷盘里推到苍依面前。",
+          "type": "narration"
+        },
+        {
+          "text": "你尝尝，这次的桂花就是你上次给我的那批，味道比上次的更好。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "你喜欢就好，我这次还多蒸了几个，你要是想吃明天再给你带。对了，我今天来是有件事想问问你。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "苍依把棉纸包放在柜台上，指尖无意识摩挲着左手腕上红绳编的平安结——那是小时候芽衣送给她的生日礼物，戴了十几年都没摘下来过。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "你外婆当年就是做这个的，你不会一点都不知道吧？",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "serious"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "嗯，我上次收了个客人留下的旧灯笼，好像……和你说的那个渡使的传说有关。你以前不是总跟我讲汐月町老辈传下来的故事吗？能不能再给我讲讲渡使到底是做什么的？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "serious"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "你怎么突然问起这个？我以为你以前都不信这些神神叨叨的东西呢。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "芽衣把手里的抹刀放在干净的瓷盘里，拉开柜台后的椅子示意苍依坐下，表情也慢慢严肃起来。",
+          "type": "narration"
+        },
+        {
+          "text": "我也是听我奶奶说的，说咱们汐月町自古以来就有渡使，专门给那些滞留在人间的残灵带路，送他们去该去的地方。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "听说渡使天生就能看见别人看不见的东西，要是长期不送残灵走，眼睛会疼得厉害，严重的还会分不清现实和灵界的边界呢。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "serious"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "真的……会这样吗？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "苍依下意识摸了摸自己的右眼，最近这段时间她的右眼总是时不时发疼，尤其是看见那盏旧灯笼的时候，疼得格外厉害。",
+          "type": "narration"
+        },
+        {
+          "src": "se/wind_chime.mp3",
+          "type": "se"
+        },
+        {
+          "text": "门口的风铃又叮当作响，苍依回过头，看见穿着深灰色长风衣的凛站在门口，额前的碎发被风吹得微微扬起。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "text": "打扰了，我找苍依，还有关于渡使传承的事，想和你们两个人说。",
+          "type": "dialog",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "lin",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch03_1.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "text": "暖融融的甜香里混着凛身上淡淡的雪松香气，阳光落在她手里拎着的旧灯笼上，玻璃罩子里的烛火晃了晃，映得三人的影子都软乎乎的。",
+          "type": "narration"
+        },
+        {
+          "type": "jump",
+          "target": "inside_grandma_tea_house__rin_visit"
+        },
+        {
+          "type": "jump",
+          "target": "interlude_yayi_secret_help_spirit"
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "interlude_lin_earnail_origin": {
+      "name": "银钉的旧约定",
+      "origin": "interlude",
+      "commands": [
+        {
+          "src": "backgrounds/tea_house_back_garden_night.jpg",
+          "type": "bg"
+        },
+        {
+          "src": "bgm/peaceful_moonlit_night.mp3",
+          "type": "bgm",
+          "fadeIn": 1500
+        },
+        {
+          "type": "show",
+          "name_key": "lin",
+          "position": "left",
+          "expression": "normal"
+        },
+        {
+          "text": "凛站在桂树的阴影里，方才蒼依攥着旧灯笼慌慌张张跑回屋取东西的背影，还落在她眼底没有散去。",
+          "type": "narration"
+        },
+        {
+          "src": "se/wind_sway_osmanthus.wav",
+          "type": "se",
+          "volume": 30
+        },
+        {
+          "text": "晚风卷着细碎的桂花落在她深灰皮衣的肩线处，凉丝丝的甜香漫进鼻尖。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "name_key": "lin",
+          "position": "left",
+          "expression": "thinking"
+        },
+        {
+          "text": "她无意识抬起右手，指尖蹭过左耳的三颗银钉，金属的凉意透过薄薄的皮肤浸了进来。",
+          "type": "narration"
+        },
+        {
+          "text": "触感太过熟悉，瞬间把她的思绪拉回了七年前的同一个月圆夜。",
+          "type": "narration"
+        },
+        {
+          "type": "flash",
+          "opacity": 0.3,
+          "duration": 500
+        },
+        {
+          "text": "那时候她刚满十五，第一次独自完成渡使的任务，被蒼依的外婆拉到这棵桂花树下。",
+          "type": "narration"
+        },
+        {
+          "text": "老人的手上带着常年炒大麦茶的焦香，指节上有揉茶磨出来的薄茧，捏着银钉的手稳得没有丝毫颤抖。",
+          "type": "narration"
+        },
+        {
+          "text": "第一颗银钉穿进耳廓的时候，外婆的声音轻得像落在耳边的风，说这是守心印，护你见灵不迷，遇邪不侵。",
+          "type": "narration"
+        },
+        {
+          "text": "第二颗银钉落下，她又说这是承责印，要你守着汐月町的人与灵，岁岁安稳。",
+          "type": "narration"
+        },
+        {
+          "text": "第三颗银钉戴好，外婆抬手揉了揉她的发顶，眼底盛着比满月还要亮的光。",
+          "type": "narration"
+        },
+        {
+          "text": "老人笑着对她说，等你找到下一任能扛得起渡使职责的孩子，就来我这拿第四颗，把传承续上。",
+          "type": "narration"
+        },
+        {
+          "text": "那时候凛还不懂这句话背后的重量，只握着胸前刚拿到的铜灯笼吊坠，认认真真对着外婆点头，把这句话刻进了骨血里。",
+          "type": "narration"
+        },
+        {
+          "text": "之后的七年她走了大半个国家，见过各式各样流连人间的残灵，每次遇到撑不下去的时刻，只要摸一摸耳后的三颗银钉，就能想起那天的桂花香，还有外婆的嘱托。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "name_key": "lin",
+          "position": "left",
+          "expression": "tender"
+        },
+        {
+          "src": "se/osmanthus_petal_fall.wav",
+          "type": "se",
+          "volume": 20
+        },
+        {
+          "text": "又一朵桂花落在她的发梢，凛指尖摩挲着最靠近耳廓的那颗银钉，嘴角忍不住牵起一点极淡的软意。",
+          "type": "narration"
+        },
+        {
+          "text": "原来我找了这么久的人，一直都在这里。",
+          "type": "dialog",
+          "name_key": "lin",
+          "expression": "tender"
+        },
+        {
+          "src": "se/wood_slide_door.wav",
+          "type": "se",
+          "volume": 40
+        },
+        {
+          "text": "身后传来木拉门滑动的轻响，暖黄的灯光从门口漏出来，落在她脚边的青石板上。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "name_key": "lin",
+          "position": "left",
+          "expression": "normal"
+        },
+        {
+          "text": "凛抬手把落在发梢的桂花捻下来，随手塞进外套口袋，耳尖悄无声息地漫上一点淡红。",
+          "type": "narration"
+        },
+        {
+          "type": "wait",
+          "duration": 1000
+        },
+        {
+          "type": "jump",
+          "target": "inside_grandma_tea_house__spirit_reveal"
+        }
+      ],
+      "background": "",
+      "description": "茶屋后院的桂花树下，夜风拂过枝桠落了细碎桂花，满月的光铺在青石板路上"
+    },
+    "tea_house_back_garden__night": {
+      "name": "tea_house_back_garden__night",
+      "origin": "main",
+      "commands": [
+        {
+          "src": "tea_house_back_garden",
+          "time": "night",
+          "type": "bg"
+        },
+        {
+          "text": "晚风裹着桂花的香气吹过庭院，石灯笼的光在苔藓上投下斑驳的影子，我攥着手里的旧灯笼，忽然听见身后传来轻缓的脚步声。",
+          "type": "narration"
+        },
+        {
+          "type": "jump",
+          "target": "interlude_lin_earnail_origin"
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "interlude_lin_childhood_visit": {
+      "name": "廊下的旧剪影",
+      "origin": "interlude",
+      "commands": [
+        {
+          "src": "bg/xiyue_old_street_rainy_night.jpg",
+          "type": "bg",
+          "duration": 1500,
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/gentle_rain_piano.mp3",
+          "type": "bgm",
+          "volume": 60
+        },
+        {
+          "src": "se/fine_rain.mp3",
+          "type": "se",
+          "volume": 40
+        },
+        {
+          "type": "show",
+          "clothing": "做旧水洗黑色羊毛高领针织衫，外搭深灰亚光皮质短外套，下装是藏青水洗直筒牛仔裤，脚穿黑色厚底帆布靴。针织衫软糯亲肤，皮衣带自然磨白痕迹，外套为Y廓形宽肩收腰，裤装为直筒H型。配饰为左耳三颗银钉（成年时家族授予的渡使身份标记）、颈间铜制旧灯笼吊坠（家族传承的渡使信物）、挎包上挂的木质迷你速写板（插画家随时打草稿用）",
+          "name_key": "lin",
+          "position": "left",
+          "expression": "normal"
+        },
+        {
+          "text": "凛快步追出巷口，细密的雨丝迎面落在脸颊上，带来微凉的触感，雾色里那道模糊的身影早已消失得无影无踪。",
+          "type": "narration"
+        },
+        {
+          "text": "她停下脚步，微微仰头看向茶屋廊下悬着的素色灯笼，暖黄色的光晕在雨雾里晕开软乎乎的边，和记忆里的模样分毫不差。",
+          "type": "narration"
+        },
+        {
+          "text": "还是和小时候一样，连灯笼的样式都没变。",
+          "type": "dialog",
+          "name_key": "lin"
+        },
+        {
+          "text": "熟悉的桂花甜香混杂着雨雾里的潮湿气息飘过来，凛的思绪不受控制地飘回了十几年前的初秋。",
+          "type": "narration"
+        },
+        {
+          "name": "blur_old_film",
+          "type": "effect",
+          "duration": 2000
+        },
+        {
+          "text": "那是她第一次跟着身为上代渡使的祖母来茶屋拜访苍依的外婆，大人们关在茶室里谈渡使传承的事，她嫌闷，偷偷溜到了后院。",
+          "type": "narration"
+        },
+        {
+          "text": "院子里的桂树开得正好，细碎的金色花瓣落了满地，穿鹅黄色连衣裙的小苍依蹲在树下，正认认真真把落在竹篮里的桂花挑出来，指尖沾着细碎的花屑。",
+          "type": "narration"
+        },
+        {
+          "text": "十岁的凛怕生，躲在朱红的廊柱后面，探着半张脸偷看了好久，连祖母喊她名字的声音都没听见。",
+          "type": "narration"
+        },
+        {
+          "text": "那时候她扎着羊角辫，发梢还别了朵桂花，蹲在地上哼的童谣，我到现在都记得调子。",
+          "type": "dialog",
+          "name_key": "lin"
+        },
+        {
+          "text": "小苍依像是察觉到了身后的视线，忽然转过头往廊柱的方向看过来，黑葡萄似的眼睛弯成了月牙，还举着手里的桂花冲她挥了挥手。",
+          "type": "narration"
+        },
+        {
+          "text": "凛当时吓得立刻缩回头，耳朵尖烧得通红，连跑带躲地钻回了祖母身后，之后好半天都敢再露头。",
+          "type": "narration"
+        },
+        {
+          "text": "后来她跟着长辈来过汐月町很多次，却始终没好意思主动和苍依搭话，只敢隔着人群或是廊檐，偷偷看她在院子里追三花猫跑，帮外婆递茶点，坐在门槛上晃着腿晒桂花干。",
+          "type": "narration"
+        },
+        {
+          "name": "clear",
+          "type": "effect",
+          "duration": 1500
+        },
+        {
+          "text": "颈间传来的微凉触感拉回了凛的思绪，她抬手摸了摸颈间挂着的铜制旧灯笼吊坠，指尖蹭过上面被岁月磨得光滑的纹路。",
+          "type": "narration"
+        },
+        {
+          "text": "她的心愿很快就能了了。",
+          "type": "dialog",
+          "name_key": "lin"
+        },
+        {
+          "text": "凛低头看了一眼挎包上挂着的木质迷你速写板，那里面夹着好几张她这些年偷偷画的苍依的速写，每一张的眉眼都画得格外清晰。",
+          "type": "narration"
+        },
+        {
+          "text": "这次，总不用再躲在柱子后面偷看了。",
+          "type": "dialog",
+          "name_key": "lin"
+        },
+        {
+          "src": "se/wind_chime.mp3",
+          "type": "se",
+          "volume": 30
+        },
+        {
+          "text": "风卷着雨丝吹过，茶屋的蓝布门帘被掀起来一角，隐约能看见里面暖黄的灯光，还有苍依弯腰擦桌子的模糊剪影。",
+          "type": "narration"
+        },
+        {
+          "text": "凛站在雨里看了片刻，终于转过身，往巷口的方向慢慢走去，靴底踩在沾了水的青石板上，发出轻而稳的声响。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "duration": 1000,
+          "name_key": "lin",
+          "transition": "fade"
+        },
+        {
+          "src": "black",
+          "type": "bg",
+          "duration": 1500,
+          "transition": "fade"
+        }
+      ],
+      "background": "",
+      "description": "汐月町深夜的老街巷，飘着细雨，街灯晕开暖黄色的光圈，青石板路沾着水光"
+    },
+    "yayi_sweet_pastry_shop__daily": {
+      "name": "yayi_sweet_pastry_shop__daily",
+      "origin": "main",
+      "commands": [
+        {
+          "src": "backgrounds/yayi_sweet_pastry_shop__daily.jpg",
+          "type": "bg",
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/warm_daily.mp3",
+          "type": "bgm",
+          "fadeIn": 1000
+        },
+        {
+          "text": "下午三点的阳光斜斜扫过芽衣果子店的落地玻璃窗，玻璃上贴着的手绘和果子贴纸被晒得微微发烫，暖金色的光在米白色的木质地板上投下软软的光斑。",
+          "type": "narration"
+        },
+        {
+          "text": "苍依推开门的时候，挂在门楣上的铜铃叮铃响了一声，刚烤好的奶酥香混着蜜渍红豆的甜香扑面而来，裹着暖意扑了她满脸。",
+          "type": "narration"
+        },
+        {
+          "text": "柜台上整整齐齐码着刚做好的樱饼，粉色的道明寺粉饼皮上沾着细碎的盐渍樱花瓣，表皮还冒着淡淡的白汽，旁边摆着一小罐免费提供的焙茶粉。",
+          "type": "narration"
+        },
+        {
+          "text": "墙角的猫爬架上，常来町里晃的三花流浪猫正团成圆滚滚的球打盹，蓬松的尾巴时不时晃一下，扫过旁边堆着的印着樱花图案的打包纸袋。",
+          "type": "narration"
+        },
+        {
+          "text": "苍依抬手把被风吹乱的碎发别到耳后，银质茶花发簪碰着耳尖，凉丝丝的触感让她弯了弯眼，她已经记不清有多少个下午像这样，从自己的茶屋走过来，蹭芽衣刚做好的点心吃。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "芽衣，我来蹭今天的限定点心啦。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "就知道你这个时间点来，樱饼刚做好十分钟，还热着呢，给你留了两个加了红豆馅的。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "你怎么知道我要红豆馅的？我上周还说要尝栗子馅的来着。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "栗子馅的上周就给你留过啦，你上周吃的时候说红豆馅的配你店里的乌龙最合适，我记着呢。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "embarrassed"
+        },
+        {
+          "text": "啊…我随口说的你居然也记下来了。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "embarrassed"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "你的话我当然都记得啊。对了，刚才张奶奶过来买点心，还给你带了自家种的橘子，说上次你帮她看了一下午的小孙子，特意谢你的。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "张奶奶啊…我都忘了这事了，她太客气了。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "还有啊，上周我们说的老街美食节的事，居委会刚才来人通知，让我们两家都报个摊位，说茶屋和果子店是咱们町的招牌呢。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "好啊，我打算到时泡桂花乌龙卖，再做一点外婆传的茶点，你呢？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "我做樱饼和奶酥，还有你最爱吃的红豆铜锣烧，到时我们两个摊位挨在一起，还能互相蹭吃。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "苍依看着芽衣眼睛亮闪闪的样子，嘴角的笑意压都压不住，之前那些关于残灵、关于渡使的沉重记忆，好像都在这样细碎的日常里慢慢化了，变成了手里点心的甜，身边人的体温，还有吹过老街的温软的风。",
+          "type": "narration"
+        },
+        {
+          "text": "对了，你之前不是说想找个时间去海边看日落吗？下周刚好我休店一天，我们一起去吧？",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "真的？我还以为你要忙点心店的事没时间呢。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "再忙也有陪你的时间啊，而且海边的风一吹，整个人都放松了，刚好我们还可以带点点心去野餐。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch06_ya_yi_2.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "text": "苍依走到柜台边，伸手拿起一个温热的樱饼咬了一口，软绵的饼皮带着樱花的淡香，红豆馅甜得刚好，一点都不腻，就像她现在过的日子，平淡，却满是让人安心的甜。",
+          "type": "narration"
+        },
+        {
+          "text": "打盹的三花猫醒了过来，喵呜了一声跳下台子，蹭了蹭苍依的裤腿，芽衣笑着拿了一小块奶酥递过去，小猫叼着奶酥，晃着尾巴跑到门口晒太阳去了。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "嗯，没有什么比现在更好了。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch06_ya_yi_3.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "text": "门楣上的铜铃又叮铃响了一声，背着书包的小学生蹦蹦跳跳地跑进来，奶声奶气地要两个草莓大福，芽衣笑着应了一声，转身去柜子里拿点心，阳光落在她的发梢上，镀上了一层软软的金边。",
+          "type": "narration"
+        },
+        {
+          "text": "苍依咬着樱饼靠在柜台边，看着街上人来人往，卖糖葫芦的叫卖声远远飘过来，混着果子店的甜香，日子慢悠悠地往前淌着，温暖又安稳，像永远都不会到头。",
+          "type": "narration"
+        },
+        {
+          "type": "end",
+          "ending_id": "end_normal_yayi"
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "inside_grandma_tea_house__daily": {
+      "name": "inside_grandma_tea_house__daily",
+      "origin": "main",
+      "commands": [
+        {
+          "text": "第七章 · 烟火人间的守护",
+          "type": "chapter_title"
+        },
+        {
+          "src": "backgrounds/inside_grandma_tea_house__daily.jpg",
+          "type": "bg",
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/warm_daily.mp3",
+          "type": "bgm",
+          "fadeIn": 1000
+        },
+        {
+          "text": "午后的阳光斜斜穿过茶屋糊着棉纸的木格窗，在深棕色的木质地板上投下错落的方格印，晒得脚边的旧藤椅都泛着暖烘烘的木头香气。",
+          "type": "narration"
+        },
+        {
+          "text": "煤炉上的铜壶咕嘟咕嘟冒着细密的白汽，水蒸气顺着壶嘴飘到房梁上，沾得挂着的干桂花串微微晃荡，甜香混着茶香漫得满屋子都是。",
+          "type": "narration"
+        },
+        {
+          "text": "竹编门帘上挂着的铜铃偶尔被穿堂风掀得叮铃轻响，外面老街的巷子里飘来卖糖炒栗子的叫卖声，拖着慢悠悠的尾音，混着远处渔船的汽笛声。",
+          "type": "narration"
+        },
+        {
+          "text": "苍依手里捏着干净的棉麻布，正挨个擦着橱柜上摆着的青瓷茶杯，指尖蹭过杯壁上细碎的冰裂纹，那是外婆生前最爱用的一套茶具。",
+          "type": "narration"
+        },
+        {
+          "text": "她鼻尖动了动，闻见空气里除了茶香之外，还混着一丝熟悉的麦香和黄油味，嘴角不自觉地弯了弯——她知道芽衣快要来了。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "今天的桂花乌龙焖了快半个钟头，香气全出来了，等会儿她肯定又要抢着喝第一杯。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "话音刚落，门帘上的铜铃就叮铃铃响得脆生，暖金色的阳光裹着更浓的甜香扑进屋里，芽衣拎着印着小雏菊图案的牛皮纸袋站在门口，发梢还沾着点外面沾的杨絮。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "哟，你这鼻子可真灵，我还没进门你就知道是我了？",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "喏，刚烤好的奶黄酥，还热乎着呢，我特意多放了咸蛋黄，你上次说喜欢这个口感。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "我就知道你今天会做这个，上周陈阿婆来喝茶吃了两块，说念了好几天，你是不是多做了要给她送过去？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "你怎么什么都猜得到啊？跟你待久了我脑子里想什么都瞒不住你。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "两个人围着临窗的小木桌坐下来，苍依拿过两个薄胎白瓷杯，倒了两杯浅琥珀色的茶汤，细碎的金桂在水面打着转，香气直往鼻子里钻。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "昨天张爷爷来取他送过来修的旧收音机，说最近晚上总能听见院子里有猫叫，睡得比之前踏实多了。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "哦那只三花啊，我上周给它喂了小鱼干，它现在天天蹲我店门口要吃的，机灵得很，晚上就蜷在张爷爷院子的墙头上晒太阳。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "之前总觉得外婆留的这根银茶花发簪沉得慌，现在戴久了，反而觉得跟普通的发饰没什么两样。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "她抬手摸了摸别在发侧的银簪，冰凉的金属被体温焐得暖融融的，簪头的茶花纹路被阳光照得亮闪闪的，早就没有了之前带着的那点清冷的灵力气息。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "这样不好吗？咱们现在就守着这一条街的老街坊，天天有茶喝有点心吃，还有什么不满足的？",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "风穿过窗棂吹进来，窗台上摆着的茉莉盆栽晃了晃，一片雪白的花瓣飘下来，刚好落在苍依面前的茶杯里，在琥珀色的茶汤上打了个转，慢悠悠沉了下去。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "嗯，没有什么比现在更好了。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch06_ya_yi_1.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "text": "苍依端起茶杯抿了一口，桂花的甜混着乌龙的香，还有一点茉莉的清冽，暖融融的茶汤顺着喉咙滑下去，连心口都暖得发烫。窗外的叫卖声还在飘，铜壶的咕嘟声还在响，日子慢得像是要永远停在这个晒着太阳的午后。",
+          "type": "narration"
+        },
+        {
+          "type": "choice",
+          "options": [
+            {
+              "jump": "yayi_sweet_pastry_shop__daily",
+              "text": "去芽衣的果子店看看刚出炉的新品点心"
+            },
+            {
+              "end": {
+                "type": "end",
+                "ending_id": "end_normal_yayi"
+              },
+              "text": "今天留在茶屋守店，等着芽衣下次带点心过来"
+            }
+          ]
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "interlude_avoid_grandma_notebook": {
+      "name": "落灰的黑皮本",
+      "origin": "interlude",
+      "commands": [
+        {
+          "type": "bg",
+          "value": "茶屋_堂屋_八仙桌_晴昼"
+        },
+        {
+          "type": "bgm",
+          "value": "nostalgic_piano_lofi"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "第二日辰时，温暖的阳光透过茶屋的木格窗落在堂屋的八仙桌上，蒼依换了干净的工作服，正准备收拾昨晚散落的杂物。",
+          "type": "narration"
+        },
+        {
+          "text": "桌面上的白瓷杯里盛着刚泡好的月见茶，淡白色的热气慢悠悠往上飘，混着阳光落在她搭在桌沿的手背上。",
+          "type": "narration"
+        },
+        {
+          "text": "昨晚把收拾到一半的杂物都塞抽屉里了，得整理出来才行。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "type": "se",
+          "value": "wood_drawer_squeak"
+        },
+        {
+          "text": "蒼依伸手拉开八仙桌右侧的木抽屉，里面堆着茶包、擦桌布，还有昨晚随手放进去的旧灯笼挂绳。",
+          "type": "narration"
+        },
+        {
+          "text": "她的指尖在杂物里翻找时，忽然碰到了一个硬邦邦的、封皮带着粗糙纹理的物件。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "她把那东西抽出来，才发现是外婆留下的黑皮渡使笔记，不知道什么时候滑进了抽屉深处，封皮上已经落了一层薄薄的灰。",
+          "type": "narration"
+        },
+        {
+          "type": "effect",
+          "value": "sunbeam_dust_float"
+        },
+        {
+          "text": "指尖碰到封皮的瞬间，细小的灰尘在阳光里扬起，落在她雾蓝色的袖口上。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "我……上次把它塞在这里，已经快半年了吧。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "外婆走前特意把这本笔记和她头上的银茶花发簪一起交到她手里，说这是每代渡使必须传承的东西，记着百年来汐月町所有残灵的归宿。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "她的拇指无意识摩挲着笔记封皮上烫金的茶花纹样，指尖悬在金属搭扣上半天，迟迟没有动作。",
+          "type": "narration"
+        },
+        {
+          "text": "只要翻开它，就意味着我要接过渡使的责任，对吧？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "她想起上次翻开扉页时看到的外婆的字迹——「渡使守的从来不是阴阳，是活人的念想，旧物的余温」，那时她只觉得心脏像是被什么东西压得喘不过气，慌忙把本子合了起来。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "sad"
+        },
+        {
+          "text": "可是我……还没准备好。我怕我做不好，辜负外婆的期望，也怕……面对那些沉甸甸的执念。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "sad"
+        },
+        {
+          "text": "她的指尖微微颤抖，好几次用力捏住搭扣要掀开，最后还是泄了气似的松了手。",
+          "type": "narration"
+        },
+        {
+          "type": "se",
+          "value": "cloth_rubbing"
+        },
+        {
+          "text": "她从口袋里掏出干净的棉巾，仔仔细细把封皮上的薄灰擦得干干净净，烫金的茶花纹样在阳光下泛着柔和的光。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "犹豫了半晌，她还是把笔记重新塞回了抽屉的最深处，压在了一叠未拆封的新茶包下面。",
+          "type": "narration"
+        },
+        {
+          "type": "se",
+          "value": "drawer_latch_click"
+        },
+        {
+          "text": "咔哒一声轻响，抽屉被她推回原位，仿佛也把那份沉甸甸的责任暂时锁在了看不见的地方。",
+          "type": "narration"
+        },
+        {
+          "text": "……再给我一点时间吧，外婆。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "她端起桌上微凉的月见茶抿了一口，淡淡的苦味混着茶香漫开，阳光依旧暖融融地落在桌面上，仿佛什么都没有发生过。",
+          "type": "narration"
+        }
+      ],
+      "background": "",
+      "description": "茶屋堂屋靠窗的八仙桌边，阳光晒着擦得发亮的木桌面，茶杯里的月见茶冒着淡热气"
+    },
+    "inside_grandma_tea_house__inherit": {
+      "name": "inside_grandma_tea_house__inherit",
+      "origin": "main",
+      "commands": [
+        {
+          "src": "backgrounds/inside_grandma_tea_house__inherit.jpg",
+          "type": "bg",
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/nostalgic_warm.mp3",
+          "type": "bgm",
+          "fadeIn": 1000
+        },
+        {
+          "text": "茶屋里的陈设和蒼依记忆里分毫不差，靠窗的八仙桌擦得发亮的痕迹还留在桌面上，是外婆生前每天擦三遍留下来的。",
+          "type": "narration"
+        },
+        {
+          "text": "柜台后的木架上整整齐齐摆着半人高的陶制茶罐，罐身上贴着外婆写的毛笔字标签，分别装着炒青、茉莉、桂花乌龙，还有她最爱的白牡丹。",
+          "type": "narration"
+        },
+        {
+          "text": "空气里飘着陈年铁观音混合晒干橘皮的淡香，混着从门缝钻进来的海风咸腥味，是属于外婆和茶屋独有的味道。",
+          "type": "narration"
+        },
+        {
+          "text": "她把行李箱放在门口的脚垫上，指尖扫过柜台上积的薄灰，指腹沾了细细一层，带着旧木头的质感。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "蒼依抬起手腕揉了揉右眼，刚才进门的时候就隐隐发疼的灵眼此刻跳得更厉害了，仿佛有什么东西在茶屋深处盯着她看。",
+          "type": "narration"
+        },
+        {
+          "text": "她下意识皱了皱眉，从小就不喜欢这份突如其来的感应，每次灵眼发疼都意味着她又要撞见不属于现世的存在。",
+          "type": "narration"
+        },
+        {
+          "text": "她走到柜台后的洗手池边洗干净手，先取下挂在挂钩上的白瓷茶具，准备先泡一壶外婆最爱的白牡丹。",
+          "type": "narration"
+        },
+        {
+          "text": "外婆说过，泡茶之前先烫三次茶具，茶的香气才不会被杂味盖住。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "她动作熟练地把热水倒进茶壶里晃了三圈倒掉，重复了三次，动作一丝不苟，和外婆当年教她的时候一模一样。",
+          "type": "narration"
+        },
+        {
+          "text": "滚水冲进放了干茶的茶壶里，奶白色的热气立刻冒了上来，裹挟着白牡丹特有的清甜味散满了半间屋子。",
+          "type": "narration"
+        },
+        {
+          "text": "她把泡好的茶放在柜台上晾着，转身蹲下来翻靠墙的旧木柜，里面堆着外婆生前用的帕子、账本，还有一摞她小时候画的歪歪扭扭的蜡笔画。",
+          "type": "narration"
+        },
+        {
+          "text": "账本的扉页夹着一张泛黄的照片，是十岁的她蹲在茶屋门口吃馒头，外婆站在她身后，手搭在她的肩膀上，笑得眉眼都弯了起来。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch01_2.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "happy",
+          "transition": "fadeIn"
+        },
+        {
+          "text": "原来这些东西外婆都还留着，我还以为早就被扔掉了。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "她指尖碰到一个硬邦邦的纸包，抽出来一看，是叠得整整齐齐的素白纸灯笼，纸面上还印着淡淡的山茶花纹，和外婆当年每年十五挂在门口的一模一样。",
+          "type": "narration"
+        },
+        {
+          "text": "灵眼突然又是一阵尖锐的疼，她忍不住闭了闭眼，恍惚间仿佛看见一个穿蓝布衫的老人站在灯笼旁边，笑着朝她招手，再睁开眼的时候又什么都没有。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch01_3.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised",
+          "transition": "fadeIn"
+        },
+        {
+          "text": "外婆？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "只有风从半开的窗户吹进来，吹动桌上的账本页角哗啦啦响，没有任何回应。",
+          "type": "narration"
+        },
+        {
+          "text": "说起来，再过三天就是十五了，外婆往年都会提前三天把灯笼挂起来的。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "汐月町的住户每到十五都会在门口挂一盏素纸灯笼，据说是给迷路的残灵照路，也能避免残灵误闯民宅惊扰普通人，这是传了几十年的老规矩。",
+          "type": "narration"
+        },
+        {
+          "src": "se/knock_door.mp3",
+          "type": "se"
+        },
+        {
+          "text": "门口突然传来笃笃的敲门声，伴随着熟悉的苍老声音，隔着木门传了进来。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依把灯笼放在桌上，走过去拉开门，隔壁的王阿婆正拎着一个竹编食盒站在门口，脸上堆着和蔼的笑。",
+          "type": "narration"
+        },
+        {
+          "text": "王阿婆把食盒递到她手里，说里面是刚蒸好的潮汐馒头，特意多做了两个无桂花的咸口款，知道她和芽衣都不爱吃甜口的。",
+          "type": "narration"
+        },
+        {
+          "text": "谢谢阿婆，刚好芽衣今天下班要过来，我正愁没东西招待她呢。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "set",
+          "value": "+1",
+          "variable": "affection_ya_yi"
+        },
+        {
+          "text": "阿婆又叮嘱了她几句，说再过三天就是十五了，别忘了把门口的素纸灯笼挂上，说完就拎着空食盒慢悠悠走了。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依关上门，把食盒放在桌上，打开盖子，馒头的热气混着豆沙和麦香飘了出来，和记忆里的味道一模一样。",
+          "type": "narration"
+        },
+        {
+          "text": "外婆你放心，十五的灯笼我会挂好，茶屋我也会好好守着的。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "她拿起桌上叠得整整齐齐的素纸灯笼，指尖抚过纸面上的山茶花印，灵眼的疼痛不知什么时候已经消了下去。",
+          "type": "narration"
+        },
+        {
+          "text": "茶碗里的白牡丹正慢慢舒展着叶片，淡金色的茶汤晃了晃，倒映出她别在发间的银质茶花发簪，亮得像外婆留在时光里的眼睛。",
+          "type": "narration"
+        },
+        {
+          "type": "jump",
+          "target": "interlude_childhood_isolated_memory"
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "interlude_yayi_secret_help_spirit": {
+      "name": "亮闪闪的旧纽扣",
+      "origin": "interlude",
+      "commands": [
+        {
+          "src": "inside_yangguozi_shop",
+          "time": "sunset",
+          "type": "bg",
+          "transition": "fadeIn"
+        },
+        {
+          "src": "bgm_warm_piano_lofi",
+          "type": "bgm",
+          "transition": "fadeIn"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "ya_yi",
+          "expression": "happy",
+          "transition": "fadeIn"
+        },
+        {
+          "text": "蒼依拎着刚打包好的海盐芝士蛋糕刚踏出店门，挂在门檐的黄铜风铃晃了晃，落下一串软乎乎的叮铃声。",
+          "type": "narration"
+        },
+        {
+          "text": "路上小心哦~明天记得带外婆腌的紫苏梅子给我尝呀！",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "wait"
+        },
+        {
+          "text": "芽衣趴在冰凉的木质收银台上晃了晃脚，指尖无意识蹭过案板上还带着余温的蛋糕杯，细碎的干桂花香气飘得满室都是。",
+          "type": "narration"
+        },
+        {
+          "src": "se_drawer_open",
+          "type": "se"
+        },
+        {
+          "text": "她抬手拉开收银台最下层的上锁抽屉，指尖碰到了一枚凉冰冰、磨得发亮的黄铜纽扣。",
+          "type": "narration"
+        },
+        {
+          "text": "纽扣边缘有几道深浅不一的磨痕，是被人常年揣在手心摩挲才会留下的印记。",
+          "type": "narration"
+        },
+        {
+          "text": "算起来，这都是半个月前的事了呀。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "那时候她刚打扫完店后门的台阶，就看见一只橘白黑三色的大花猫蹲在台阶边，嘴里叼着这枚纽扣，背上飘着半透明的、穿洗得发白的旧军装的老人影子。",
+          "type": "narration"
+        },
+        {
+          "text": "我当时还揉了三次眼睛，以为自己烤蛋糕烤太久眼花了呢，原来蒼依小时候说的能看见残灵的事，都是真的呀。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "surprised"
+        },
+        {
+          "type": "wait"
+        },
+        {
+          "text": "那残灵好像知道她能看见自己似的，连着三天都蹲在洋果子店门口，爪子扒着那枚纽扣蹭她的姜黄色帆布鞋。",
+          "type": "narration"
+        },
+        {
+          "text": "好啦好啦，我知道你要把这个送给住在老巷口的陈阿婆对不对？我帮你送过去啦，你别再蹲我家门口啦，我妈都以为我偷偷在外头养猫要骂我了。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "laugh"
+        },
+        {
+          "src": "se_cat_meow_soft",
+          "type": "se"
+        },
+        {
+          "text": "三花猫蹭了蹭她的手背，背着半透明的老人影子晃着蓬松的尾巴跑走了，之后再也没有出现在洋果子店附近。",
+          "type": "narration"
+        },
+        {
+          "text": "第二天她趁着送定制蛋糕的空隙，把那枚纽扣悄悄放在了陈阿婆家门口的针线筐里，阿婆摸着纽扣掉了好久的眼泪，说这是她老伴年轻时军装上面的扣子，丢了快五十年了。",
+          "type": "narration"
+        },
+        {
+          "text": "她躲在巷口的梧桐树后面看着阿婆把纽扣攥在手心里进了屋，风卷起地上的梧桐叶擦过她的脚踝，暖乎乎的。",
+          "type": "narration"
+        },
+        {
+          "text": "说起来我当时还特意绕了三条小巷才敢过去，把扣子放下就跑，生怕被阿婆当成偷东西的怪人呢。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "embarrassed"
+        },
+        {
+          "text": "后来阿婆还特意来店里买了草莓大福谢我，说最近总梦到老头子说没遗憾了，可开心了。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "src": "effect_sunset_glow_flicker",
+          "type": "effect",
+          "transition": "fadeIn"
+        },
+        {
+          "text": "橘红色的夕阳透过玻璃窗落在她指尖的纽扣上，映出细碎的金色光斑，她晃了晃右手腕的电子表，烤戚风蛋糕的闹钟还有十分钟就要响了。",
+          "type": "narration"
+        },
+        {
+          "text": "她指尖蹭了蹭颈间挂着的干桂花吊坠，那是去年秋天蒼依帮她摘了茶屋院子里的金桂压成的，总带着淡淡的甜香。",
+          "type": "narration"
+        },
+        {
+          "text": "我本来想把这件事告诉蒼依的，可是看见她每次提到残灵都怕得要躲到被子里，还是算了吧。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "反正只要她能开开心心的，这些小事我帮她处理掉就好啦，才不要告诉她呢，省得她又要担惊受怕好久。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "happy"
+        },
+        {
+          "src": "se_drawer_close",
+          "type": "se"
+        },
+        {
+          "text": "她把纽扣小心放回抽屉里上好锁，拍了拍手上的灰，拎着放在一边的裱花袋走到案板旁边，准备给明天来买蛋糕的幼儿园小朋友多撒点干桂花碎。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "bgm",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "jump",
+          "target": "inside_grandma_tea_house__rin_visit"
+        }
+      ],
+      "background": "",
+      "description": "洋果子店的收银台边，夕阳斜照进来，案板上摆着刚做好的海盐芝士杯子蛋糕，撒着干桂花"
+    },
+    "old_street_outside_tea_house__day": {
+      "name": "old_street_outside_tea_house__day",
+      "origin": "main",
+      "commands": [
+        {
+          "text": "第一章 · 海风裹着旧茶香归来",
+          "type": "chapter_title"
+        },
+        {
+          "src": "backgrounds/old_street_outside_tea_house__day.jpg",
+          "type": "bg",
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/warm_healing_with_mystery.mp3",
+          "type": "bgm",
+          "fadeIn": 1000
+        },
+        {
+          "text": "九月的海风裹着咸湿的潮气扫过汐月町的青石板路，路两边骑楼檐下挂着的晒干渔网被风吹得晃出细碎的阴影。",
+          "type": "narration"
+        },
+        {
+          "text": "空气里混着隔壁海产店的咸鲜味、路边九里香的甜香，还有身后老茶屋飘出来的陈年普洱香气，层层叠叠裹在风里撞过来，都是蒼依记忆里的味道。",
+          "type": "narration"
+        },
+        {
+          "text": "明晃晃的日光斜斜落在茶屋斑驳的木质招牌上，「月见茶屋」四个朱漆字已经掉了大半，边缘被多年的海风磨得发亮。",
+          "type": "narration"
+        },
+        {
+          "text": "木门槛边摆着几盆开得细碎的蓝雪花，花瓣上还沾着刚浇完水的水珠，风一吹就簌簌往下掉。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依拖着24寸的银灰色行李箱站在茶屋门口，指尖划过冰凉的木门框，触感和她七岁那年外婆牵着她的手第一次进门时一模一样。",
+          "type": "narration"
+        },
+        {
+          "text": "她下意识抬手摸了摸鬓边别着的银质茶花发簪，那是外婆弥留之际塞到她手里的，说这是茶屋代代传承的主人信物。",
+          "type": "narration"
+        },
+        {
+          "text": "左腕上磨得发毛的红绳平安结被风刮得晃了晃，那是童年好友芽衣十岁那年送给她的生日礼物，她戴了十二年从来没摘下来过。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "终于...回来了啊。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch01_1.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal",
+          "transition": "fadeIn"
+        },
+        {
+          "text": "她弯腰把行李箱靠在门槛边，指尖刚碰到木门把手的瞬间，额角靠近左眉骨的位置突然泛起一阵熟悉的灼痛感。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依下意识攥紧了左腕的红绳，眉尖微微蹙起，那是灵眼对附近残灵产生反应的征兆，从小到大她已经经历过无数次。",
+          "type": "narration"
+        },
+        {
+          "text": "才刚回到茶屋就有反应吗...",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "她连忙从随身的帆布包里掏出半瓶早上装的冷麦茶，仰头灌了一大口，冰凉的液体滑过喉咙，额角的灼痛感才慢慢平复下来。",
+          "type": "narration"
+        },
+        {
+          "text": "竹编篮子碰撞的脆响从巷口传过来，隔壁住了几十年的陈阿婆提着一摞热气腾腾的点心，踩着青石板路慢悠悠走了过来。",
+          "type": "narration"
+        },
+        {
+          "text": "阿婆脸上的皱纹笑成了绽开的菊花，把还冒着热气的油纸包塞到蒼依手里，一口带着海蛎子味的本地口音爽朗得很，说这是今早刚蒸好的潮汐馒头，十五快到了，吃了能安魂，别被路过的残灵惊扰。",
+          "type": "narration"
+        },
+        {
+          "text": "谢谢陈阿婆，您还记得我最爱吃这个。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "汐月町的潮汐馒头用海水晒制的盐调豆沙内馅，甜里带点鲜，是本地独有的特色点心，每到十五前后家家户户都会蒸上一筐。",
+          "type": "narration"
+        },
+        {
+          "text": "阿婆临走前还反复叮嘱她，别忘了按老规矩，十五之前在茶屋门口挂一盏素白纸灯笼，给迷路的残灵照路，也免得它们误闯进来打扰普通人。",
+          "type": "narration"
+        },
+        {
+          "text": "好的阿婆，我整理完东西就去巷口的杂货铺买灯笼挂上。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "蒼依捧着还发烫的油纸包站在门口，指尖碰到油纸表面渗出的一点油星，忽然想起小时候每到十五，外婆也会领着她站在这个位置，接过阿婆递来的热馒头。",
+          "type": "narration"
+        },
+        {
+          "text": "那时候她总嫌豆沙馅太甜，外婆就会提前跟阿婆订两个不放桂花的咸口馒头，留着单独给她吃。",
+          "type": "narration"
+        },
+        {
+          "text": "说起来，芽衣也不爱吃桂花馅，等她下班过来，刚好可以给她留两个。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "type": "set",
+          "value": "+1",
+          "variable": "affection_ya_yi"
+        },
+        {
+          "text": "风再次吹过，茶屋檐下挂的铜铃铛被吹得叮当作响，声音清脆得仿佛和十几年前的声响重叠在了一起。",
+          "type": "narration"
+        },
+        {
+          "text": "外婆，我答应过你，会好好把茶屋守下去的。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "蒼依弯腰提起脚边的行李箱，推开门走进茶屋，木门发出吱呀的轻响，明晃晃的日光跟着她的脚步落在积了薄灰的木质地板上，细小的灰尘在光柱里慢悠悠打着转。",
+          "type": "narration"
+        },
+        {
+          "type": "jump",
+          "target": "inside_grandma_tea_house"
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "inside_grandma_tea_house__fullmoon": {
+      "name": "inside_grandma_tea_house__fullmoon",
+      "origin": "main",
+      "commands": [
+        {
+          "text": "第二章 · 灯笼沾着海雾来访",
+          "type": "chapter_title"
+        },
+        {
+          "src": "backgrounds/inside_grandma_tea_house__fullmoon.jpg",
+          "type": "bg",
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/warm_mystic.mp3",
+          "type": "bgm",
+          "fadeIn": 1000
+        },
+        {
+          "text": "细密的雨丝斜斜敲在茶屋的木格窗上，檐下悬着的铜铃被海风卷得晃来晃去，叮铃的声响混着土陶炉上大麦茶的咕嘟声，漫在暖黄的棉纸灯影里。",
+          "type": "narration"
+        },
+        {
+          "text": "今天是农历十五月圆夜，汐月町的海雾比往常沉得多，隔着磨砂玻璃望出去，只能看见外面青石板路上的灯笼晕成一片模糊的橙红光斑。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依刚把最后一套描着山茶花纹的白瓷茶具擦干净，指尖还沾着淡淡的皂角香，身上的雾蓝改良和服沾了点炉边的热气，软乎乎的贴在小臂上。",
+          "type": "narration"
+        },
+        {
+          "text": "墙面上挂着的旧木钟咔哒咔哒走到了八点整，厚重的钟声响过第三下，门口挂着的藏青迎客布帘被风掀起一角，带着海腥气的凉雨丝飘了进来。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依抬眼看向门口的方向，左腕上童年芽衣送的红绳平安结突然微微发烫，她下意识抬手攥住了腕间的绳结，指尖有点发凉。",
+          "type": "narration"
+        },
+        {
+          "text": "她从小就知道，每月十五的月圆夜，外婆留下的这间茶屋总会迎来些和常人不一样的客人，哪怕她始终对自己能看见残灵的能力心存畏惧，也从不会把上门的访客拒之门外。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "（声音温软，带着点海边长大的软鼻音）欢迎光临，外面雨大，快进来避避吧。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "text": "（声音清冽，像沾了雨的寒松）麻烦给我一杯月见茶，谢谢。",
+          "type": "dialog",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "lin",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "（指尖顿了顿）月见茶？很少有客人知道这个茶单上没有的品类，你是怎么知道的？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "text": "（指尖拂过肩头沾着雨珠的黑色连帽衫，眼神落在蒼依发间的银茶花簪上）老主顾了，以前总陪外婆来这里喝茶。",
+          "type": "dialog",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "lin",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "原来是外婆的旧识啊，那你稍等，月见茶要现泡，大概等三分钟就好。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "text": "蒼依转身走到土陶炉边，翻出柜子最里面装着月见草干花的玻璃罐，热水冲下去的瞬间，淡金色的花瓣在透明的茶壶里浮浮沉沉，散出清浅的蜜香。",
+          "type": "narration"
+        },
+        {
+          "text": "等她端着茶托盘走回客座的时候，穿黑衣服的客人正低着头翻着她放在桌角的旧诗集，指尖夹着的炭笔在空白页上画着什么，肩头上的雨珠滴在木质地板上，晕开小小的湿痕。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "你的月见茶好了，小心烫。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "text": "谢谢。",
+          "type": "dialog",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "text": "男人端起茶杯喝了一口，指尖在杯沿上顿了顿，眼神似乎柔和了一瞬。",
+          "type": "narration"
+        },
+        {
+          "text": "味道和当年外婆泡的一模一样。",
+          "type": "dialog",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "lin",
+          "transition": "fadeOut"
+        },
+        {
+          "text": "没过多久，外面的雨小了些，男人放下压了茶钱的茶杯，拿起挂在门边的黑伞，朝蒼依点了点头就掀帘走了出去，脚步快得几乎没留下什么声响。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "蒼依走到桌边收拾茶具，才发现客座的椅子脚边靠着一只湿透了的朱红色旧灯笼，竹制的骨架已经被雨水泡得发沉，纸面却完好无损，上面还画着一朵歪歪扭扭的山茶花。",
+          "type": "narration"
+        },
+        {
+          "text": "哎？客人的灯笼落下了！",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch02_1.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "text": "她连忙拿起灯笼追出去，掀开布帘的时候，外面的青石板路上已经空无一人，只有海雾裹着雨丝飘过来，凉丝丝的打在她脸上。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "蒼依抱着湿冷的灯笼站在门口愣了几秒，低头的瞬间，她突然看见灯笼的纸面上浮着一团淡白色的雾气，雾气里隐约露出个扎着羊角辫的小女孩的影子，正眨着眼睛望着她。",
+          "type": "narration"
+        },
+        {
+          "text": "（下意识后退半步，指尖猛地攥紧了左腕的红绳，指节都泛了白）残、残灵？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch02_2.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "text": "挂钟的秒针咔哒响了一声，灯笼里的小女孩晃了晃小小的身子，嘴唇动了动，似乎在说着什么，海雾从门口涌进来，裹着淡金色的月见草香气，漫过了蒼依的脚踝。",
+          "type": "narration"
+        },
+        {
+          "type": "jump",
+          "target": "old_street_outside_tea_house"
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "inside_grandma_tea_house__rin_visit": {
+      "name": "inside_grandma_tea_house__rin_visit",
+      "origin": "main",
+      "commands": [
+        {
+          "src": "inside_grandma_tea_house",
+          "time": "evening",
+          "type": "bg"
+        },
+        {
+          "text": "我把芽衣打听来的旧闻整理好放在茶桌一角，刚端起冷掉的茶喝了一口，木门被推开的轻响传来，凛站在逆光里，身影被夕阳染成暖金色。",
+          "type": "narration"
+        },
+        {
+          "type": "jump",
+          "target": "side_camellia_s1"
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "interlude_childhood_isolated_memory": {
+      "name": "库房里的桂花香气",
+      "origin": "interlude",
+      "commands": [
+        {
+          "text": "指尖还残留着素纸灯笼的磨砂触感，蒼依鬼使神差地转身走向茶屋深处那扇挂着铜锁的库房木门。",
+          "type": "narration"
+        },
+        {
+          "name": "se_door_squeak",
+          "type": "se"
+        },
+        {
+          "name": "bg_tea_house_storage_sunny",
+          "type": "bg"
+        },
+        {
+          "name": "bgm_nostalgic_piano",
+          "type": "bgm",
+          "action": "play"
+        },
+        {
+          "text": "午后的阳光从库房三米高的毛玻璃窗斜斜漏下来，灰尘在光柱里慢悠悠打转，空气里混着旧宣纸的墨香和不知从哪飘来的淡桂花甜香。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "她走到堆着半人高旧藤箱的木架边蹲下，指尖拂过最上层那只描着山茶花的栗色藤箱扣，铜扣已经磨得发亮，是她小时候最常翻的储物箱。",
+          "type": "narration"
+        },
+        {
+          "name": "se_latch_click",
+          "type": "se"
+        },
+        {
+          "text": "藤箱盖掀开的瞬间，一本封皮画满歪歪扭扭小桂花的涂鸦本最先滑了出来，落在她的膝头。",
+          "type": "narration"
+        },
+        {
+          "text": "这是……我小学三年级的涂鸦本？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "她随手翻开一页，纸页上用蜡笔画着穿校服的小女孩，周围歪歪扭扭画了好几个半透明的小人轮廓，旁边还用拼音标注着「穿蓝布衫的奶奶」「扎羊角辫的小妹妹」。",
+          "type": "narration"
+        },
+        {
+          "text": "都过了这么久了，我还以为早就丢了。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "sad"
+        },
+        {
+          "text": "记忆的闸门瞬间被拉开，小学三年级那个飘着桂花香气的下午毫无预兆地撞进脑海里。",
+          "type": "narration"
+        },
+        {
+          "text": "那天她课间跟同桌说，教室墙角站着个拎着竹篮的蓝布衫老奶奶，要给大家送糖吃，被路过的班长听见，转头就喊着「蒼依是骗子，大家不要跟她玩」传遍了整个年级。",
+          "type": "narration"
+        },
+        {
+          "text": "整整一天没人愿意跟她说话，连平时最要好的邻桌女孩都刻意绕着她走，放学铃响的时候她攥着书包带，不敢走正门，绕了半条街躲进了茶屋的库房里。",
+          "type": "narration"
+        },
+        {
+          "text": "她把脸埋在膝盖里，咬着袖子哭了快一个小时，连库房门被推开的声音都没听见，直到带着麦香和豆沙甜香的热气蹭到了她的脸颊边。",
+          "type": "narration"
+        },
+        {
+          "text": "那时候我真的好怕，我以为所有人都会觉得我是怪孩子，再也没有人愿意理我了。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "sad"
+        },
+        {
+          "text": "记忆里的外婆什么都没问，只是把刚蒸好的潮汐馒头塞到她冻得冰凉的手里，粗糙的掌心轻轻揉了揉她哭红的发顶。",
+          "type": "narration"
+        },
+        {
+          "text": "她咬了一口热乎的馒头，甜糯的豆沙在舌尖化开，混着库房里飘着的桂花香气，堵在喉咙里的委屈好像瞬间就化了大半。",
+          "type": "narration"
+        },
+        {
+          "text": "那天外婆陪她在库房的木板地上坐了整整一下午，跟她说能看见别人看不见的东西，从来都不是错，是老天爷给了她一双能接住更多温柔的眼睛。",
+          "type": "narration"
+        },
+        {
+          "text": "外婆，我现在还记得那个馒头的味道哦，和今天早上你托阿婆送过来的，一模一样。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "她指尖蹭过涂鸦本最后一页上用红笔描的小桂花，是当年外婆握着她的手画上去的，线条歪歪扭扭，却暖得发烫。",
+          "type": "narration"
+        },
+        {
+          "text": "风从高窗的缝隙里吹进来，掀动了几页涂鸦纸，淡桂花的香气又飘了过来，和记忆里那个下午的味道分毫不差。",
+          "type": "narration"
+        },
+        {
+          "text": "你放心，我会好好守着茶屋，也会好好用这双眼睛的。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "她小心把涂鸦本放回藤箱里，扣好铜扣，又伸手拍了拍箱盖上落的薄灰。",
+          "type": "narration"
+        },
+        {
+          "text": "站起身的时候，她顺手拎过放在旁边的素纸山茶花灯笼，阳光落在灯笼纸面上，晕开一层柔和的暖光。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi"
+        },
+        {
+          "type": "bgm",
+          "action": "fade_out"
+        },
+        {
+          "type": "bg",
+          "action": "fade_out"
+        }
+      ],
+      "background": "",
+      "description": "茶屋堆满旧藤箱、木架的库房，阳光从高窗漏下，空气中混着旧纸张和淡桂花香气"
+    },
+    "old_street_outside_tea_house__night": {
+      "name": "old_street_outside_tea_house__night",
+      "origin": "main",
+      "commands": [
+        {
+          "src": "backgrounds/old_street_outside_tea_house__night.jpg",
+          "type": "bg",
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/mystical_healing.mp3",
+          "type": "bgm",
+          "fadeIn": 1000
+        },
+        {
+          "text": "潮湿的海风裹着咸涩的海气扫过老街，挂在茶屋檐下的朱红灯笼被吹得左右摇晃，暖橙色的光在湿漉漉的青石板上投下晃动的碎影。",
+          "type": "narration"
+        },
+        {
+          "text": "刚停的雨还在青石板的缝隙里积着小水洼，倒映着檐下的红灯笼和天上的圆月，远处防波堤的方向传来海浪拍击礁石的闷响，混着巷尾卖关东煮的小摊飘来的木鱼花香气。",
+          "type": "narration"
+        },
+        {
+          "text": "海雾贴着地面缓缓流动，裹着淡淡的月见草甜香，漫过蒼依穿木屐的脚踝，凉丝丝的触感让她猛地回过神。",
+          "type": "narration"
+        },
+        {
+          "text": "她怀里的旧灯笼还沾着雨珠，竹制的骨架已经被雨水泡得发乌，表面糊的和纸边缘起了皱，上面画着的月见草花被晕开了一小片，像沾了细碎的月光。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "她左腕上的红绳被指尖攥得发皱，指节泛着青白，灵眼所在的眼尾隐隐发烫，那团淡白色的小影子还蹲在灯笼里，怯生生地望着她，没有要靠近的意思。",
+          "type": "narration"
+        },
+        {
+          "text": "你、你不会伤害我对不对？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "灯笼里的小女孩用力晃了晃头上的羊角辫，小脸上露出讨好的笑，伸着细白的手指指向蒼依攥红绳的左手，嘴巴一张一合，却没有声音传出来。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依忽然想起外婆以前跟她说过的老话，汐月町的青石板路是百年前第一批定居的渔民亲手铺的，每块石头都吸足了百年来的海气，能拦住残灵随便进出普通人的店铺，也能阻着残灵离开寄身的旧物太远。",
+          "type": "narration"
+        },
+        {
+          "text": "她左腕的红绳是小时候芽衣给她编的，说能挡邪祟，这么多年她从来没有摘下来过，刚才指尖攥得太用力，红绳的结都嵌进了肉里，留下一道淡淡的红印。",
+          "type": "narration"
+        },
+        {
+          "text": "她以前一直很害怕看见这些别人看不见的东西，每次撞见残灵都要躲得远远的，哪怕知道对方没有恶意，也会控制不住地心跳加快。",
+          "type": "narration"
+        },
+        {
+          "text": "可是今天看着灯笼里这个扎着羊角辫的小影子，她心里却没有往常那种窒息的恐惧感，反而生出一点软乎乎的怜惜，像看见路边淋了雨的小猫。",
+          "type": "narration"
+        },
+        {
+          "text": "她心里的惧意慢慢散了些，指尖松开红绳，试探着碰了碰灯笼被雨打湿的纸面，温度凉得像浸过海水。",
+          "type": "narration"
+        },
+        {
+          "text": "你是不是说不了话？是不是在找刚才来茶屋的那个穿黑风衣的姐姐？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "小女孩用力点头，淡白色的小身子晃了晃，几乎要从纸面上飘出来，却被什么看不见的屏障挡了回去，委屈地扁了扁嘴。",
+          "type": "narration"
+        },
+        {
+          "text": "你别着急，我帮你找她好不好？她应该还没走太远。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "小女孩立刻露出了灿烂的笑，伸出小小的手贴在灯笼的纸面上，像是要碰一碰蒼依的指尖。",
+          "type": "narration"
+        },
+        {
+          "text": "那我们先进屋好不好？外面风大，你待在湿灯笼里会不舒服的，我给你倒杯热的麦茶好不好？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "说起来，刚才那个姐姐走的时候好像也没打伞，这么大的雨，也不知道有没有淋湿。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "她抱着灯笼往茶屋走，木屐踩在积了水的青石板上，发出哒哒的轻响，暖光从门里漏出来，把她的影子拉得很长。",
+          "type": "narration"
+        },
+        {
+          "text": "灯笼里的小女孩安安静静地蹲在纸面上，小手托着腮，望着茶屋里透出的暖光，眼睛亮得像浸了碎星。",
+          "type": "narration"
+        },
+        {
+          "text": "她刚要抬手推木格子门，眼角的余光忽然瞥见老街尽头的巷口，闪过一个穿着黑风衣的高挑身影，衣摆被风掀起一角，露出腕上系着的和灯笼柄上一模一样的红绳。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch02_3.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "text": "灯笼里的小女孩忽然激动起来，小身子拼命晃着，嘴里发出细碎的、只有蒼依能听见的呜呜声，像是在喊姐姐。",
+          "type": "narration"
+        },
+        {
+          "src": "se/wind_chime.mp3",
+          "type": "se",
+          "volume": 50
+        },
+        {
+          "text": "茶屋檐下的风铃被风吹得叮铃响了一声，巷口的身影已经消失在海雾里，只剩下摇晃的灯笼光，在青石板上拉出长长的、暖融融的影子。",
+          "type": "narration"
+        },
+        {
+          "type": "choice",
+          "options": [
+            {
+              "set": {
+                "affection_lin": "+1"
+              },
+              "jump": "interlude_lin_childhood_visit",
+              "text": "立刻追上去看看巷口的是不是刚才的客人"
+            },
+            {
+              "jump": "inside_grandma_tea_house",
+              "text": "先回屋把灯笼烘干，再慢慢打听客人的下落"
+            }
+          ]
+        },
+        {
+          "type": "jump",
+          "target": "interlude_lin_childhood_visit"
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "tea_house_secret_choice_room__night": {
+      "name": "tea_house_secret_choice_room__night",
+      "origin": "main",
+      "commands": [
+        {
+          "text": "第五章 · 月光下的十字路口",
+          "type": "chapter_title"
+        },
+        {
+          "src": "backgrounds/tea_house_secret_choice_room__night.jpg",
+          "type": "bg",
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/mystical_warm.mp3",
+          "type": "bgm",
+          "fadeIn": 1000
+        },
+        {
+          "text": "茶屋深处的密室没有窗户，地面铺着被几代人的鞋底磨得发亮的旧松木板，空气中浮动着陈年普洱与干松脂混合的淡香。",
+          "type": "narration"
+        },
+        {
+          "text": "嵌在木梁上的磨砂玻璃壁灯散着暖黄的光，铜制灯座边缘磨得发亮，是蒼依外婆年轻时亲手换的，上面还刻着小小的茶花纹样。",
+          "type": "narration"
+        },
+        {
+          "text": "半空中悬浮着直径近一米的蓝紫色光环，边缘泛着细碎的银辉，像把整个月圆夜的月光都揉碎了封在里面。",
+          "type": "narration"
+        },
+        {
+          "text": "光环里偶尔会闪过细碎的画面，有穿着旧式和服的妇人站在茶屋门口笑，有穿着中山装的年轻人提着灯笼走在石板路上，都是历代渡使留下的记忆碎片。",
+          "type": "narration"
+        },
+        {
+          "text": "密室的角落里堆着几个旧木箱子，上面贴着泛黄的标签，写着历代渡使的名字，箱子里装着他们留下来的笔记和工具。",
+          "type": "narration"
+        },
+        {
+          "text": "不知道从哪里钻进来的夜风拂过，带着外面海潮的咸湿气息，还有巷口桂花树飘来的甜香，吹得壁灯的光影轻轻晃动。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依站在光环前三步的位置，指尖不自觉地蜷起，口袋里铜制茶匙的冰凉触感隔着棉麻布料传过来，让她纷乱的思绪稍微安定了些。",
+          "type": "narration"
+        },
+        {
+          "text": "她左边站着凛，右边站着芽衣，两个人都没有出声，只是静静等着她的决定，空气里安静得只能听见三个人浅浅的呼吸声。",
+          "type": "narration"
+        },
+        {
+          "src": "cg/ch05_1.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "蒼依发梢上的银茶花簪被风吹得轻轻晃动，反射出淡淡的冷光，那是外婆传给她的渡使信物，也是她从小到大最珍视的东西。",
+          "type": "narration"
+        },
+        {
+          "text": "外婆之前跟我说过，渡使的传承，是责任，也是选择，从来没有必须要接过的道理。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "text": "凛的指尖夹着半张没画完的速写，纸角被风吹得轻轻晃，画纸上是茶屋的门面，门口摆着几盆开得正好的茉莉。",
+          "type": "narration"
+        },
+        {
+          "text": "凛的肩上沾着一点细碎的桂花花瓣，应该是刚才从巷口走过来的时候落在上面的。",
+          "type": "narration"
+        },
+        {
+          "text": "我知道你一直害怕自己的能力会给身边的人带来麻烦，如果你选择把印记交给我，我会和你一起承担所有的责任，不会让你一个人面对那些未知的东西。",
+          "type": "dialog",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "lin",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "芽衣的手里拎着一个保温桶，是她早上出门的时候带来的，里面装着刚蒸好的潮汐包，桶壁还带着淡淡的热气。",
+          "type": "narration"
+        },
+        {
+          "text": "芽衣的帆布鞋鞋尖沾了一点泥，是下午去海边捡贝壳的时候踩的，她之前还兴高采烈跟蒼依说要把捡来的贝壳粘在茶屋的柜台上做装饰。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依，如果你不想再面对那些奇奇怪怪的东西也没关系啊，我们把印记封起来，就像以前一样，每天守着茶屋，卖卖茶和点心，周末一起去海边散步，这样的日子也很好啊。",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "蒼依的视线垂下来，落在自己左手腕的红绳平安结上，那是小学五年级的时候芽衣送她的生日礼物，戴了十几年，红绳都磨得有些发白了。",
+          "type": "narration"
+        },
+        {
+          "text": "她又想起上个月月圆夜，凛陪着她把那只旧灯笼里的残灵送回另一边的时候，凛站在她身边，手心的温度透过相握的手传过来，那时候她心里的恐慌好像一下子就散了大半。",
+          "type": "narration"
+        },
+        {
+          "text": "她还记得外婆临终前拉着她的手说，不管选什么样的路，只要是自己想走的，就没有对错。",
+          "type": "narration"
+        },
+        {
+          "text": "半空中的蓝紫色光环似乎察觉到她的思绪，轻轻晃了晃，更多细碎的光屑落下来，落在她的木屐上，凉丝丝的。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依的指尖微微发抖，她知道自己伸出去的这只手，将会决定她之后数十年的人生轨迹。",
+          "type": "narration"
+        },
+        {
+          "text": "一边是和凛一同承担渡使的职责，看见更多普通人看不见的风景，守护那些徘徊在世间的残灵。",
+          "type": "narration"
+        },
+        {
+          "text": "一边是和芽衣一同守着平凡的茶屋，过着安稳的日常，再也不用为那些看不见的东西担惊受怕。",
+          "type": "narration"
+        },
+        {
+          "text": "两条路都很好，都有她舍不得放下的人，也有她想要守护的东西。",
+          "type": "narration"
+        },
+        {
+          "text": "我……",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "serious"
+        },
+        {
+          "text": "她深吸了一口气，慢慢抬起了右手，朝着半空中浮动的蓝紫色光环伸了过去。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch05_2.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "type": "choice",
+          "options": [
+            {
+              "jump": "ch06_lin",
+              "text": "传给凛，共担渡使职责"
+            },
+            {
+              "jump": "ch06_ya_yi",
+              "text": "传给芽衣，封存奇幻秘密"
+            }
+          ]
+        }
+      ],
+      "background": "",
+      "description": ""
+    },
+    "inside_grandma_tea_house__spirit_reveal": {
+      "name": "inside_grandma_tea_house__spirit_reveal",
+      "origin": "main",
+      "commands": [
+        {
+          "src": "backgrounds/inside_grandma_tea_house__spirit_reveal.jpg",
+          "type": "bg",
+          "transition": "fade"
+        },
+        {
+          "src": "bgm/warm_mystery.mp3",
+          "type": "bgm",
+          "fadeIn": 1000
+        },
+        {
+          "text": "木拉门被推开的瞬间，暖黄的煤油灯光裹着大麦茶的焦香涌了出来，落在三人沾着夜露的发梢上。",
+          "type": "narration"
+        },
+        {
+          "text": "茶屋的木质梁柱还留着白日人气的余温，柜台上的青瓷茶罐整齐排成一列，罐身上手绘的山茶花在灯光下泛着温润的釉光。",
+          "type": "narration"
+        },
+        {
+          "text": "蒼依反手带上拉门，将深秋的凉意和庭院里飘来的桂香一同挡在门外，指尖还残留着旧灯笼粗糙的和纸触感。",
+          "type": "narration"
+        },
+        {
+          "text": "被她放在矮桌中央的旧灯笼忽然轻轻晃了晃，淡青色的微光从镂空的竹纹里漏出来，在米白榻榻米上投下细碎晃动的光斑。",
+          "type": "narration"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "它好像比刚才在庭院里的时候更亮了，是不是到了熟悉的地方才会这样？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "蒼依说着抬头扫过梁柱上贴着的五颜六色便签，指尖无意识摩挲着围裙口袋里的铜茶匙。",
+          "type": "narration"
+        },
+        {
+          "text": "说起来这些都是客人留下来的便签，攒够一排我就会摘下来夹进旧诗集里，上次还翻到过十年前一位爷爷写的夸茶好喝的留言呢。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "text": "话音刚落，矮桌上的旧灯笼忽然爆发出一阵柔和的青光，一道穿着藏青布衫的老婆婆身影慢慢从光里飘了出来，脸上带着温和的笑意。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch04_1.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised",
+          "transition": "fadeIn"
+        },
+        {
+          "text": "这就是附在灯笼里的残灵？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "text": "嗯，她是几十年前老渔翁的老伴，当年老渔翁出海遇难之后，她就抱着这盏灯笼在茶屋等了三年，直到去世都没等到人回来。",
+          "type": "dialog",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "lin",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "sad"
+        },
+        {
+          "text": "所以她的残念一直留在灯笼里，是想找什么东西吗？",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "sad"
+        },
+        {
+          "text": "老婆婆的虚影晃了晃，抬手指了指蒼依挂在腰上的铜茶匙，又比了个弯钩的形状。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "ya_yi",
+          "expression": "normal"
+        },
+        {
+          "text": "哦！我想起来了！上次我整理茶屋储物间的时候，翻到过一个锈迹斑斑的旧鱼钩，用红绳系着，上面还刻了个‘阿秀’的字，是不是就是这个？",
+          "type": "dialog",
+          "character": "ya_yi",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "ya_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "对哦，我好像也有印象，外婆当年说那是常来的老渔翁落下的，一直没来得及还给他。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "蒼依连忙起身走到储物间，没过多久就拿着个用红绳系着的旧鱼钩走了出来，鱼钩上的锈迹已经被磨得很光滑，显然是被人反复摩挲过很多次。",
+          "type": "narration"
+        },
+        {
+          "text": "老婆婆的虚影碰到鱼钩的瞬间，周身的青光忽然变得格外柔和，她对着三人轻轻鞠了一躬，身影慢慢变得透明，最后化作点点光屑飘向了窗外的夜色里。",
+          "type": "narration"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch04_2.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "happy",
+          "transition": "fadeIn"
+        },
+        {
+          "text": "太好了，她终于完成心愿了。",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "happy"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "lin",
+          "expression": "serious"
+        },
+        {
+          "text": "蒼依，有件事我要告诉你。你外婆当年是汐月町的最后一任渡使，她去世之前留下遗嘱，指定你作为下一任渡使的传人。",
+          "type": "dialog",
+          "character": "lin",
+          "expression": "serious"
+        },
+        {
+          "type": "hide",
+          "character": "lin",
+          "transition": "fadeOut"
+        },
+        {
+          "src": "cg/ch04_3.jpg",
+          "mode": "full",
+          "type": "cg",
+          "transition": "fade"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "text": "渡使传人？我？怎么会……",
+          "type": "dialog",
+          "character": "cang_yi",
+          "expression": "surprised"
+        },
+        {
+          "type": "hide",
+          "character": "cang_yi",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "right",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "text": "三日后就是月圆之夜，到时候会在茶屋开启传承仪式，你还有三天的时间考虑。不管你做出什么选择，我都会尊重你的决定。",
+          "type": "dialog",
+          "character": "lin",
+          "expression": "normal"
+        },
+        {
+          "type": "hide",
+          "character": "lin",
+          "transition": "fadeOut"
+        },
+        {
+          "type": "show",
+          "position": "left",
+          "character": "cang_yi",
+          "expression": "thinking"
+        },
+        {
+          "text": "蒼依下意识摸了摸头上别着的银质茶花发簪，窗外的月光透过纸拉门照进来，落在她攥着鱼钩的指尖上，带着淡淡的凉意。",
+          "type": "narration"
+        },
+        {
+          "text": "矮桌上的旧灯笼已经恢复了原本的旧褐色，安安静静躺在那里，仿佛刚才的一切都只是一场温柔的幻梦。",
+          "type": "narration"
+        },
+        {
+          "type": "choice",
+          "options": [
+            {
+              "set": {
+                "affection_lin": "+1"
+              },
+              "jump": "interlude_lin_childhood_visit",
+              "text": "和凛一起沿老街回收旧灯笼"
+            },
+            {
+              "set": {
+                "affection_ya_yi": "+1"
+              },
+              "jump": "interlude_yayi_secret_help_spirit",
+              "text": "陪芽衣回果子店拿明天的食材"
+            }
+          ]
+        },
+        {
+          "type": "jump",
+          "target": "interlude_avoid_grandma_notebook"
+        }
+      ],
+      "background": "",
+      "description": ""
+    }
+  },
+  "endings": [
+    {
+      "key": "end_true_lin",
+      "name": "茶烟渡灵共月明",
+      "type": "true",
+      "condition": "affection_lin >= 2",
+      "description": "你选择将渡使印记传给凛，仪式上凛忽然取出你夹在旧诗集里的纸折山茶花，你们终于认出彼此是童年相遇的旧识，外婆当年定下的传承约定也圆满落地。此后你们既是相伴相守的恋人，也是配合默契的渡使，每月月圆夜一同引导残灵归位，其余日子煮茶采风，汐月町的老街永远飘着月见茶的清香气。",
+      "trigger_scene": "old_street_outside_tea_house__daily_lin"
+    },
+    {
+      "key": "end_normal_lin",
+      "name": "月见茶屋的渡使搭档",
+      "type": "normal",
+      "condition": "affection_lin == 1",
+      "description": "你选择将渡使印记传给凛，二人共同承担渡使职责。你们是配合默契的工作伙伴，也是茶屋的共同经营者，偶尔会结伴出门采风收集残灵故事，虽然没有挑明心意，却也成了彼此身边最可靠的存在。",
+      "trigger_scene": "inside_grandma_tea_house__spirit_reveal"
+    },
+    {
+      "key": "end_normal_yayi",
+      "name": "桂花甜香的烟火日常",
+      "type": "normal",
+      "condition": "affection_ya_yi >= 1",
+      "description": "你选择将渡使印记传给芽衣，二人一同封存了所有关于残灵的秘密。你守着外婆留下的茶屋，芽衣经营着洋果子店，每天下午三点她都会准时带新做的蛋糕来串门，你们陪着老街坊走过一个又一个春秋，日子安稳又充满烟火气。",
+      "trigger_scene": "inside_grandma_tea_house__daily"
+    },
+    {
+      "key": "end_bad_lonely",
+      "name": "被雾霭吞噬的茶屋",
+      "type": "bad",
+      "condition": "affection_lin == 0 && affection_ya_yi == 0",
+      "description": "你既不信任凛的渡使身份，也不愿让芽衣承担未知风险，选择独自吞下渡使印记。没有接受过系统传承训练的你承受不住海量残灵的意念侵扰，灵眼永远失去了看见普通人的能力，只能守着空荡荡的茶屋，永远徘徊在人与灵的边界，再也触不到曾经熟悉的烟火。",
+      "trigger_scene": "tea_house_secret_choice_room__night"
+    }
+  ],
+  "chapters": [
+    {
+      "key": "ch01",
+      "name": "海风裹着旧茶香归来",
+      "title": "海风裹着旧茶香归来",
+      "number": "1",
+      "origin": "main",
+      "scenes": [
+        "old_street_outside_tea_house__day",
+        "inside_grandma_tea_house__inherit",
+        "interlude_childhood_isolated_memory"
+      ],
+      "parents": [],
+      "summary": "22岁的蒼依从大学毕业回到家乡汐月町，接手外婆留下的街角茶屋。整理旧物时她的灵眼隐隐发疼，邻居阿婆送来潮汐馒头，提醒她十五日将近，记得按旧俗在门口挂素纸灯笼。"
+    },
+    {
+      "key": "ch02",
+      "name": "灯笼沾着海雾来访",
+      "title": "灯笼沾着海雾来访",
+      "number": "2",
+      "origin": "main",
+      "scenes": [
+        "inside_grandma_tea_house__fullmoon",
+        "old_street_outside_tea_house__night",
+        "interlude_lin_childhood_visit"
+      ],
+      "parents": [
+        "ch01"
+      ],
+      "summary": "十五月圆夜，神秘插画家凛冒雨到访茶屋，喝完一杯月见茶后匆匆离开，遗落了一只湿透的旧灯笼。蒼依收拾时发现灯笼里寄宿着正在寻找主人的残灵，慌乱中攥紧了左腕的红绳。"
+    },
+    {
+      "key": "ch03",
+      "name": "桂花甜馅藏旧闻",
+      "title": "桂花甜馅藏旧闻",
+      "number": "3",
+      "origin": "main",
+      "scenes": [
+        "yayi_sweet_pastry_shop__day",
+        "interlude_yayi_secret_help_spirit",
+        "inside_grandma_tea_house__rin_visit"
+      ],
+      "parents": [
+        "ch02"
+      ],
+      "summary": "蒼依带着灯笼找经营洋果子店的童年好友芽衣打听旧闻，芽衣说起了汐月町关于渡使的古老传说。二人交谈时凛突然到访，坦言自己是渡使后裔，来到汐月町是为了完成上一代的传承约定。"
+    },
+    {
+      "key": "ch04",
+      "name": "残灵的未竟心愿",
+      "title": "残灵的未竟心愿",
+      "number": "4",
+      "origin": "main",
+      "scenes": [
+        "tea_house_back_garden__night",
+        "interlude_lin_earnail_origin",
+        "inside_grandma_tea_house__spirit_reveal",
+        "interlude_avoid_grandma_notebook"
+      ],
+      "parents": [
+        "ch03"
+      ],
+      "summary": "三人合力解读残灵的记忆，得知它是几十年前一位老渔翁的老伴的残念，一直在找渔翁遗留的旧鱼钩。众人帮残灵完成心愿后，凛告诉蒼依她是外婆指定的渡使传人，三日后将开启传承仪式。"
+    },
+    {
+      "key": "ch05",
+      "name": "月光下的十字路口",
+      "title": "月光下的十字路口",
+      "number": "5",
+      "origin": "main",
+      "scenes": [
+        "tea_house_secret_choice_room__night"
+      ],
+      "parents": [
+        "ch04"
+      ],
+      "summary": "月圆夜第二晚，茶屋深处的传承密室自动开启，蓝紫色的传承光环浮在半空。凛和芽衣都站在你身边，等待你做出关于渡使印记托付的最终选择，不同的选择将指向完全不同的未来。"
+    },
+    {
+      "key": "ch06_lin",
+      "name": "月见茶香伴余生",
+      "title": "月见茶香伴余生",
+      "number": "a6",
+      "origin": "main",
+      "scenes": [
+        "tea_house_back_garden__farewell",
+        "old_street_outside_tea_house__daily_lin"
+      ],
+      "parents": [
+        "ch05"
+      ],
+      "summary": "蒼依选择将渡使印记传给凛，二人在月光下完成传承仪式，共同留在茶屋承担渡使职责。每月月圆夜她们会一起引导残灵归位，其余时间则经营茶屋、四处采风，成了汐月町人人称羡的伴侣。"
+    },
+    {
+      "key": "ch06_ya_yi",
+      "name": "烟火人间的守护",
+      "title": "烟火人间的守护",
+      "number": "b6",
+      "origin": "main",
+      "scenes": [
+        "inside_grandma_tea_house__daily",
+        "yayi_sweet_pastry_shop__daily"
+      ],
+      "parents": [
+        "ch05"
+      ],
+      "summary": "蒼依选择将渡使印记传给芽衣，二人一同封存了关于残灵世界的所有秘密。她们一个经营茶屋，一个开果子店，每天下午都凑在一起吃点心聊天，陪着汐月町的老街坊们过着安稳平凡的烟火日子。"
+    }
+  ],
+  "characters": {
+    "lin": {
+      "name": "凛",
+      "color": "#990033",
+      "clothing": "做旧水洗黑色羊毛高领针织衫，外搭深灰亚光皮质短外套，下装是藏青水洗直筒牛仔裤，脚穿黑色厚底帆布靴。针织衫软糯亲肤，皮衣带自然磨白痕迹，外套为Y廓形宽肩收腰，裤装为直筒H型。配饰为左耳三颗银钉（成年时家族授予的渡使身份标记）、颈间铜制旧灯笼吊坠（家族传承的渡使信物）、挎包上挂的木质迷你速写板（插画家随时打草稿用）。",
+      "description": "棱角分明的小方脸，下颌线清晰利落。墨蓝色丹凤眼眼神清冷，笑起来眼尾微微上挑。深红及腰长发发质偏硬，额前散几缕碎发，右半侧头发别在耳后，发梢染三缕深紫挑染。身高168cm左右，身形高挑肩宽窄腰。冷白皮，高挺直鼻，厚唇，深黑色剑眉，左耳廓有三颗并排银钉，左眉尾有一道淡粉色旧疤。",
+      "expressions": {
+        "happy": "",
+        "normal": "",
+        "tender": "",
+        "serious": "",
+        "thinking": "",
+        "surprised": ""
+      }
+    },
+    "ya_yi": {
+      "name": "芽衣",
+      "color": "#FFB6C1",
+      "clothing": "米白软棉圆领T恤，外搭樱花粉磨毛灯芯绒背带裙，脚穿白色堆堆袜配姜黄色帆布鞋。背带裙为A廓形高腰宽松，活动方便。主色为樱花粉，点缀米白、姜黄。配饰为围裙口袋挂的不锈钢小刮刀（做蛋糕的常用工具）、颈间干桂花吊坠（蒼依每年帮她摘的桂花压制而成）、右手腕硅胶电子表（烤蛋糕计时用，设置了好几个定时闹钟）。",
+      "description": "圆脸带婴儿肥，线条软乎乎的。浅棕色圆眼眼神灵动，总是带着笑意。蜂蜜色齐耳短发发质蓬松，左侧夹两个柠檬黄星星发夹，发尾微微内扣。身高158cm左右，身形偏圆是梨形身材。暖黄皮脸颊带淡褐色小雀斑，圆钝鼻，厚唇带自然粉，浅棕色弯眉，左脸颊有个小梨涡，笑起来会露出一颗小虎牙。",
+      "expressions": {
+        "sad": "",
+        "happy": "",
+        "laugh": "",
+        "serious": "",
+        "surprised": "",
+        "embarrassed": ""
+      }
+    },
+    "cang_yi": {
+      "name": "蒼依",
+      "color": "#A4C6E8",
+      "clothing": "雾蓝棉麻混纺提花改良和服，内搭米白棉麻圆领衫，下装是同色系及膝袴，脚穿白布袜配藏青软底木屐。面料柔软亲肤带暗纹，整体为宽松H廓形，腰身处用同色系布带收束。配饰为外婆传的银质茶花发簪别在编发上（渡使传承信物）、围裙口袋挂的铜制茶匙（茶屋常用工具）、左手腕红绳平安结（童年芽衣所送）。",
+      "description": "鹅蛋脸线条柔和，琥珀色杏眼常带怯意，眼神躲闪时眼尾会微微泛红。深棕及腰长发发质偏软，左侧编两股细麻花别在耳后，发梢带自然卷。身高160cm左右，身形偏瘦肩窄腰细。冷白偏粉肤色，小翘鼻，薄唇，浅棕色细平眉，右眼下有一颗淡褐色泪痣，情绪激动时泪痣周围会泛浅红。",
+      "expressions": {
+        "sad": "",
+        "happy": "",
+        "normal": "",
+        "serious": "",
+        "thinking": "",
+        "surprised": "",
+        "embarrassed": ""
+      }
+    }
+  },
+  "start_scene": "old_street_outside_tea_house__day",
+  "side_chapters": [
+    {
+      "key": "side_childhood_camellia_encounter",
+      "title": "山茶花与旧茶约",
+      "origin": "side_chapter",
+      "scenes": [
+        "side_camellia_s1",
+        "side_camellia_s2"
+      ],
+      "summary": "凛坦白渡使后裔身份后，拿出随身携带的旧速写本给蒼依看，两人一同回忆起童年时的那次短暂相遇，凛说起当年跟着长辈拜访蒼依外婆的往事，揭开上一代渡使之间的旧约定，以及凛多年来寻找蒼依的核心缘由。",
+      "insert_between": {
+        "after_chapter_key": "ch03",
+        "before_chapter_key": "ch04"
+      }
+    }
+  ],
+  "_asset_manifest": {
+    "backgrounds/interlude_childhood_isolated_memory_day.jpg": "assets/backgrounds/interlude_childhood_isolated_memory_day.jpg",
+    "backgrounds/interlude_childhood_isolated_memory.jpg": "assets/backgrounds/interlude_childhood_isolated_memory.jpg",
+    "backgrounds/old_street_outside_tea_house_day.jpg": "assets/backgrounds/old_street_outside_tea_house_day.jpg",
+    "backgrounds/old_street_outside_tea_house.jpg": "assets/backgrounds/old_street_outside_tea_house.jpg",
+    "backgrounds/inside_grandma_tea_house_day.jpg": "assets/backgrounds/inside_grandma_tea_house_day.jpg",
+    "backgrounds/inside_grandma_tea_house.jpg": "assets/backgrounds/inside_grandma_tea_house.jpg",
+    "backgrounds/yayi_sweet_pastry_shop_day.jpg": "assets/backgrounds/yayi_sweet_pastry_shop_day.jpg",
+    "backgrounds/yayi_sweet_pastry_shop.jpg": "assets/backgrounds/yayi_sweet_pastry_shop.jpg",
+    "backgrounds/tea_house_back_garden_day.jpg": "assets/backgrounds/tea_house_back_garden_day.jpg",
+    "backgrounds/tea_house_back_garden.jpg": "assets/backgrounds/tea_house_back_garden.jpg",
+    "backgrounds/tea_house_secret_choice_room_day.jpg": "assets/backgrounds/tea_house_secret_choice_room_day.jpg",
+    "backgrounds/tea_house_secret_choice_room.jpg": "assets/backgrounds/tea_house_secret_choice_room.jpg",
+    "backgrounds/interlude_lin_childhood_visit_day.jpg": "assets/backgrounds/interlude_lin_childhood_visit_day.jpg",
+    "backgrounds/interlude_lin_childhood_visit.jpg": "assets/backgrounds/interlude_lin_childhood_visit.jpg",
+    "backgrounds/side_camellia_s2_day.jpg": "assets/backgrounds/side_camellia_s2_day.jpg",
+    "backgrounds/side_camellia_s2.jpg": "assets/backgrounds/side_camellia_s2.jpg",
+    "backgrounds/tea_house_secret_choice_room__night_day.jpg": "assets/backgrounds/tea_house_secret_choice_room__night_day.jpg",
+    "backgrounds/tea_house_secret_choice_room__night.jpg": "assets/backgrounds/tea_house_secret_choice_room__night.jpg",
+    "backgrounds/interlude_yayi_secret_help_spirit_day.jpg": "assets/backgrounds/interlude_yayi_secret_help_spirit_day.jpg",
+    "backgrounds/interlude_yayi_secret_help_spirit.jpg": "assets/backgrounds/interlude_yayi_secret_help_spirit.jpg",
+    "backgrounds/side_camellia_s1_day.jpg": "assets/backgrounds/side_camellia_s1_day.jpg",
+    "backgrounds/side_camellia_s1.jpg": "assets/backgrounds/side_camellia_s1.jpg",
+    "backgrounds/inside_grandma_tea_house__inherit_day.jpg": "assets/backgrounds/inside_grandma_tea_house__inherit_day.jpg",
+    "backgrounds/inside_grandma_tea_house__inherit.jpg": "assets/backgrounds/inside_grandma_tea_house__inherit.jpg",
+    "backgrounds/yayi_sweet_pastry_shop__day_day.jpg": "assets/backgrounds/yayi_sweet_pastry_shop__day_day.jpg",
+    "backgrounds/yayi_sweet_pastry_shop__day.jpg": "assets/backgrounds/yayi_sweet_pastry_shop__day.jpg",
+    "backgrounds/inside_grandma_tea_house__spirit_reveal_day.jpg": "assets/backgrounds/inside_grandma_tea_house__spirit_reveal_day.jpg",
+    "backgrounds/inside_grandma_tea_house__spirit_reveal.jpg": "assets/backgrounds/inside_grandma_tea_house__spirit_reveal.jpg",
+    "backgrounds/interlude_avoid_grandma_notebook_day.jpg": "assets/backgrounds/interlude_avoid_grandma_notebook_day.jpg",
+    "backgrounds/interlude_avoid_grandma_notebook.jpg": "assets/backgrounds/interlude_avoid_grandma_notebook.jpg",
+    "backgrounds/old_street_outside_tea_house__night_day.jpg": "assets/backgrounds/old_street_outside_tea_house__night_day.jpg",
+    "backgrounds/old_street_outside_tea_house__night.jpg": "assets/backgrounds/old_street_outside_tea_house__night.jpg",
+    "backgrounds/inside_grandma_tea_house__rin_visit_day.jpg": "assets/backgrounds/inside_grandma_tea_house__rin_visit_day.jpg",
+    "backgrounds/inside_grandma_tea_house__rin_visit.jpg": "assets/backgrounds/inside_grandma_tea_house__rin_visit.jpg",
+    "backgrounds/yayi_sweet_pastry_shop__daily_day.jpg": "assets/backgrounds/yayi_sweet_pastry_shop__daily_day.jpg",
+    "backgrounds/yayi_sweet_pastry_shop__daily.jpg": "assets/backgrounds/yayi_sweet_pastry_shop__daily.jpg",
+    "backgrounds/interlude_lin_earnail_origin_day.jpg": "assets/backgrounds/interlude_lin_earnail_origin_day.jpg",
+    "backgrounds/interlude_lin_earnail_origin.jpg": "assets/backgrounds/interlude_lin_earnail_origin.jpg",
+    "backgrounds/old_street_outside_tea_house__day_day.jpg": "assets/backgrounds/old_street_outside_tea_house__day_day.jpg",
+    "backgrounds/old_street_outside_tea_house__day.jpg": "assets/backgrounds/old_street_outside_tea_house__day.jpg",
+    "backgrounds/inside_grandma_tea_house__fullmoon_day.jpg": "assets/backgrounds/inside_grandma_tea_house__fullmoon_day.jpg",
+    "backgrounds/inside_grandma_tea_house__fullmoon.jpg": "assets/backgrounds/inside_grandma_tea_house__fullmoon.jpg",
+    "backgrounds/tea_house_back_garden__night_day.jpg": "assets/backgrounds/tea_house_back_garden__night_day.jpg",
+    "backgrounds/tea_house_back_garden__night.jpg": "assets/backgrounds/tea_house_back_garden__night.jpg",
+    "backgrounds/inside_grandma_tea_house__daily_day.jpg": "assets/backgrounds/inside_grandma_tea_house__daily_day.jpg",
+    "backgrounds/inside_grandma_tea_house__daily.jpg": "assets/backgrounds/inside_grandma_tea_house__daily.jpg"
+  }
+}
