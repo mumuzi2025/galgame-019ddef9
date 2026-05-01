@@ -5,7 +5,8 @@
     "title": "汐月町茶屋异闻录",
     "author": "AI 生成",
     "version": "0.1.0",
-    "description": "22岁的蒼依从大学文学系毕业后，回到家乡沿海老街汐月町继承外婆留下的街角茶屋。她生来拥有能看见寄身旧物、猫狗的残灵的「灵眼」，却始终对这份能力心存畏惧。月圆之夜神秘插画家凛突然到访，留下一只寄宿着寻主残灵的旧灯笼，知晓町内异事的童年好友芽衣也加入调查。随着残灵秘密揭开，渡使传承的抉择摆在蒼依面前，她既可以选择将印记交给凛，二人共同承担渡使职责、相伴余生；也可以选择封存奇幻秘密，和芽衣一同守护汐月町的平凡日常。"
+    "description": "22岁的蒼依从大学文学系毕业后，回到家乡沿海老街汐月町继承外婆留下的街角茶屋。她生来拥有能看见寄身旧物、猫狗的残灵的「灵眼」，却始终对这份能力心存畏惧。月圆之夜神秘插画家凛突然到访，留下一只寄宿着寻主残灵的旧灯笼，知晓町内异事的童年好友芽衣也加入调查。随着残灵秘密揭开，渡使传承的抉择摆在蒼依面前，她既可以选择将印记交给凛，二人共同承担渡使职责、相伴余生；也可以选择封存奇幻秘密，和芽衣一同守护汐月町的平凡日常。",
+    "cover": "assets/cover/cover.jpg"
   },
   "scenes": {
     "yayi_sweet_pastry_shop__day": {
@@ -28,31 +29,38 @@
         },
         {
           "text": "镶嵌着卡通糖霜图案的玻璃门被推开，挂在门楣的铜制风铃叮当作响，黄油与鲜奶油的甜香瞬间裹着暖融融的热气扑到苍依脸上。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0003.wav"
         },
         {
           "text": "刚出炉的海盐芝士杯子蛋糕整齐码在柜台的透明展柜里，表面撒的金桂碎在阳光下泛着细碎的暖光，是芽衣家小店独有的招牌。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0004.wav"
         },
         {
           "text": "展柜里的海盐芝士杯子蛋糕还冒着淡淡的热气，上面撒的干桂花是去年秋天苍依帮芽衣在茶屋院子里摘的，香气比别处的更浓更甜。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0005.wav"
         },
         {
           "text": "木质地板被店员擦得发亮，墙角的留声机正放着年代久远的昭和演歌，调子软乎乎的，和满室甜香揉在一起，让人瞬间放松下来。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0006.wav"
         },
         {
           "text": "柜台后的白瓷罐里插着几支开得正好的桂花枝，风从半开的窗户吹进来，细碎的花瓣落在擦得干净的大理石台面上。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0007.wav"
         },
         {
           "text": "苍依站在门口，手里拎着用米白色棉纸裹好的潮汐馒头，指尖还沾着茶屋蒸屉的余温。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0008.wav"
         },
         {
           "text": "她今早蒸馒头的时候特意留了两个没有加桂花馅的咸口款，就是记得芽衣从小不爱吃甜口的桂花馅，每次都会单独给她留一份。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0009.wav"
         },
         {
           "type": "show",
@@ -64,7 +72,8 @@
           "text": "芽衣？我带了今早刚蒸的潮汐馒头过来，你现在有空吗？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/cang_yi_0011.wav"
         },
         {
           "src": "se/metal_tray_clink.mp3",
@@ -85,27 +94,32 @@
           "text": "哎呀苍依你可算来了！我今早还在念叨要去你茶屋蹭茶喝呢，快进来坐！",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0015.wav"
         },
         {
           "text": "扎着奶白色围裙的芽衣举着抹奶油的抹刀从后厨跑出来，发梢还沾着一点面粉，看见苍依手里的馒头眼睛亮了亮。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0016.wav"
         },
         {
           "text": "我就知道你肯定给我留了没放桂花的咸口款！上次你蒸的我一口气吃了两个，连我妈都夸你手艺好。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0017.wav"
         },
         {
           "text": "芽衣转身从展柜里拿了两个刚烤好的海盐芝士杯子蛋糕，放在印着小雏菊图案的瓷盘里推到苍依面前。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0018.wav"
         },
         {
           "text": "你尝尝，这次的桂花就是你上次给我的那批，味道比上次的更好。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0019.wav"
         },
         {
           "type": "hide",
@@ -122,11 +136,13 @@
           "text": "你喜欢就好，我这次还多蒸了几个，你要是想吃明天再给你带。对了，我今天来是有件事想问问你。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/cang_yi_0022.wav"
         },
         {
           "text": "苍依把棉纸包放在柜台上，指尖无意识摩挲着左手腕上红绳编的平安结——那是小时候芽衣送给她的生日礼物，戴了十几年都没摘下来过。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0023.wav"
         },
         {
           "type": "hide",
@@ -143,7 +159,8 @@
           "text": "你外婆当年就是做这个的，你不会一点都不知道吧？",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "serious"
+          "expression": "serious",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0026.wav"
         },
         {
           "type": "hide",
@@ -160,7 +177,8 @@
           "text": "嗯，我上次收了个客人留下的旧灯笼，好像……和你说的那个渡使的传说有关。你以前不是总跟我讲汐月町老辈传下来的故事吗？能不能再给我讲讲渡使到底是做什么的？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "serious"
+          "expression": "serious",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/cang_yi_0029.wav"
         },
         {
           "type": "hide",
@@ -177,23 +195,27 @@
           "text": "你怎么突然问起这个？我以为你以前都不信这些神神叨叨的东西呢。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0032.wav"
         },
         {
           "text": "芽衣把手里的抹刀放在干净的瓷盘里，拉开柜台后的椅子示意苍依坐下，表情也慢慢严肃起来。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0033.wav"
         },
         {
           "text": "我也是听我奶奶说的，说咱们汐月町自古以来就有渡使，专门给那些滞留在人间的残灵带路，送他们去该去的地方。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "serious"
+          "expression": "serious",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0034.wav"
         },
         {
           "text": "听说渡使天生就能看见别人看不见的东西，要是长期不送残灵走，眼睛会疼得厉害，严重的还会分不清现实和灵界的边界呢。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "serious"
+          "expression": "serious",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0035.wav"
         },
         {
           "type": "hide",
@@ -210,11 +232,13 @@
           "text": "真的……会这样吗？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/cang_yi_0038.wav"
         },
         {
           "text": "苍依下意识摸了摸自己的右眼，最近这段时间她的右眼总是时不时发疼，尤其是看见那盏旧灯笼的时候，疼得格外厉害。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0039.wav"
         },
         {
           "src": "se/wind_chime.mp3",
@@ -222,7 +246,8 @@
         },
         {
           "text": "门口的风铃又叮当作响，苍依回过头，看见穿着深灰色长风衣的凛站在门口，额前的碎发被风吹得微微扬起。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0041.wav"
         },
         {
           "type": "hide",
@@ -239,7 +264,8 @@
           "text": "打扰了，我找苍依，还有关于渡使传承的事，想和你们两个人说。",
           "type": "dialog",
           "character": "lin",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/lin_0044.wav"
         },
         {
           "type": "hide",
@@ -247,14 +273,15 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch03_1.jpg",
+          "src": "assets/cg/ch03_1.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
         },
         {
           "text": "暖融融的甜香里混着凛身上淡淡的雪松香气，阳光落在她手里拎着的旧灯笼上，玻璃罩子里的烛火晃了晃，映得三人的影子都软乎乎的。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0047.wav"
         },
         {
           "type": "jump",
@@ -265,7 +292,7 @@
           "target": "interlude_yayi_secret_help_spirit"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/yayi_sweet_pastry_shop__day.jpg",
       "description": ""
     },
     "interlude_lin_earnail_origin": {
@@ -289,7 +316,8 @@
         },
         {
           "text": "凛站在桂树的阴影里，方才蒼依攥着旧灯笼慌慌张张跑回屋取东西的背影，还落在她眼底没有散去。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0003.wav"
         },
         {
           "src": "se/wind_sway_osmanthus.wav",
@@ -298,7 +326,8 @@
         },
         {
           "text": "晚风卷着细碎的桂花落在她深灰皮衣的肩线处，凉丝丝的甜香漫进鼻尖。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0005.wav"
         },
         {
           "type": "show",
@@ -308,11 +337,13 @@
         },
         {
           "text": "她无意识抬起右手，指尖蹭过左耳的三颗银钉，金属的凉意透过薄薄的皮肤浸了进来。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0007.wav"
         },
         {
           "text": "触感太过熟悉，瞬间把她的思绪拉回了七年前的同一个月圆夜。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0008.wav"
         },
         {
           "type": "flash",
@@ -321,35 +352,43 @@
         },
         {
           "text": "那时候她刚满十五，第一次独自完成渡使的任务，被蒼依的外婆拉到这棵桂花树下。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0010.wav"
         },
         {
           "text": "老人的手上带着常年炒大麦茶的焦香，指节上有揉茶磨出来的薄茧，捏着银钉的手稳得没有丝毫颤抖。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0011.wav"
         },
         {
           "text": "第一颗银钉穿进耳廓的时候，外婆的声音轻得像落在耳边的风，说这是守心印，护你见灵不迷，遇邪不侵。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0012.wav"
         },
         {
           "text": "第二颗银钉落下，她又说这是承责印，要你守着汐月町的人与灵，岁岁安稳。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0013.wav"
         },
         {
           "text": "第三颗银钉戴好，外婆抬手揉了揉她的发顶，眼底盛着比满月还要亮的光。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0014.wav"
         },
         {
           "text": "老人笑着对她说，等你找到下一任能扛得起渡使职责的孩子，就来我这拿第四颗，把传承续上。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0015.wav"
         },
         {
           "text": "那时候凛还不懂这句话背后的重量，只握着胸前刚拿到的铜灯笼吊坠，认认真真对着外婆点头，把这句话刻进了骨血里。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0016.wav"
         },
         {
           "text": "之后的七年她走了大半个国家，见过各式各样流连人间的残灵，每次遇到撑不下去的时刻，只要摸一摸耳后的三颗银钉，就能想起那天的桂花香，还有外婆的嘱托。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0017.wav"
         },
         {
           "type": "show",
@@ -364,13 +403,15 @@
         },
         {
           "text": "又一朵桂花落在她的发梢，凛指尖摩挲着最靠近耳廓的那颗银钉，嘴角忍不住牵起一点极淡的软意。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0020.wav"
         },
         {
           "text": "原来我找了这么久的人，一直都在这里。",
           "type": "dialog",
           "name_key": "lin",
-          "expression": "tender"
+          "expression": "tender",
+          "voice": "assets/voice/interlude_lin_earnail_origin/_0021.wav"
         },
         {
           "src": "se/wood_slide_door.wav",
@@ -379,7 +420,8 @@
         },
         {
           "text": "身后传来木拉门滑动的轻响，暖黄的灯光从门口漏出来，落在她脚边的青石板上。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0023.wav"
         },
         {
           "type": "show",
@@ -389,7 +431,8 @@
         },
         {
           "text": "凛抬手把落在发梢的桂花捻下来，随手塞进外套口袋，耳尖悄无声息地漫上一点淡红。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_earnail_origin/__narrator___0025.wav"
         },
         {
           "type": "wait",
@@ -400,7 +443,7 @@
           "target": "inside_grandma_tea_house__spirit_reveal"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/interlude_lin_earnail_origin.jpg",
       "description": "茶屋后院的桂花树下，夜风拂过枝桠落了细碎桂花，满月的光铺在青石板路上"
     },
     "tea_house_back_garden__night": {
@@ -414,14 +457,15 @@
         },
         {
           "text": "晚风裹着桂花的香气吹过庭院，石灯笼的光在苔藓上投下斑驳的影子，我攥着手里的旧灯笼，忽然听见身后传来轻缓的脚步声。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/tea_house_back_garden__night/__narrator___0001.wav"
         },
         {
           "type": "jump",
           "target": "interlude_lin_earnail_origin"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/tea_house_back_garden__night.jpg",
       "description": ""
     },
     "interlude_lin_childhood_visit": {
@@ -453,20 +497,24 @@
         },
         {
           "text": "凛快步追出巷口，细密的雨丝迎面落在脸颊上，带来微凉的触感，雾色里那道模糊的身影早已消失得无影无踪。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0004.wav"
         },
         {
           "text": "她停下脚步，微微仰头看向茶屋廊下悬着的素色灯笼，暖黄色的光晕在雨雾里晕开软乎乎的边，和记忆里的模样分毫不差。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0005.wav"
         },
         {
           "text": "还是和小时候一样，连灯笼的样式都没变。",
           "type": "dialog",
-          "name_key": "lin"
+          "name_key": "lin",
+          "voice": "assets/voice/interlude_lin_childhood_visit/_0006.wav"
         },
         {
           "text": "熟悉的桂花甜香混杂着雨雾里的潮湿气息飘过来，凛的思绪不受控制地飘回了十几年前的初秋。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0007.wav"
         },
         {
           "name": "blur_old_film",
@@ -475,32 +523,39 @@
         },
         {
           "text": "那是她第一次跟着身为上代渡使的祖母来茶屋拜访苍依的外婆，大人们关在茶室里谈渡使传承的事，她嫌闷，偷偷溜到了后院。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0009.wav"
         },
         {
           "text": "院子里的桂树开得正好，细碎的金色花瓣落了满地，穿鹅黄色连衣裙的小苍依蹲在树下，正认认真真把落在竹篮里的桂花挑出来，指尖沾着细碎的花屑。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0010.wav"
         },
         {
           "text": "十岁的凛怕生，躲在朱红的廊柱后面，探着半张脸偷看了好久，连祖母喊她名字的声音都没听见。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0011.wav"
         },
         {
           "text": "那时候她扎着羊角辫，发梢还别了朵桂花，蹲在地上哼的童谣，我到现在都记得调子。",
           "type": "dialog",
-          "name_key": "lin"
+          "name_key": "lin",
+          "voice": "assets/voice/interlude_lin_childhood_visit/_0012.wav"
         },
         {
           "text": "小苍依像是察觉到了身后的视线，忽然转过头往廊柱的方向看过来，黑葡萄似的眼睛弯成了月牙，还举着手里的桂花冲她挥了挥手。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0013.wav"
         },
         {
           "text": "凛当时吓得立刻缩回头，耳朵尖烧得通红，连跑带躲地钻回了祖母身后，之后好半天都敢再露头。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0014.wav"
         },
         {
           "text": "后来她跟着长辈来过汐月町很多次，却始终没好意思主动和苍依搭话，只敢隔着人群或是廊檐，偷偷看她在院子里追三花猫跑，帮外婆递茶点，坐在门槛上晃着腿晒桂花干。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0015.wav"
         },
         {
           "name": "clear",
@@ -509,21 +564,25 @@
         },
         {
           "text": "颈间传来的微凉触感拉回了凛的思绪，她抬手摸了摸颈间挂着的铜制旧灯笼吊坠，指尖蹭过上面被岁月磨得光滑的纹路。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0017.wav"
         },
         {
           "text": "她的心愿很快就能了了。",
           "type": "dialog",
-          "name_key": "lin"
+          "name_key": "lin",
+          "voice": "assets/voice/interlude_lin_childhood_visit/_0018.wav"
         },
         {
           "text": "凛低头看了一眼挎包上挂着的木质迷你速写板，那里面夹着好几张她这些年偷偷画的苍依的速写，每一张的眉眼都画得格外清晰。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0019.wav"
         },
         {
           "text": "这次，总不用再躲在柱子后面偷看了。",
           "type": "dialog",
-          "name_key": "lin"
+          "name_key": "lin",
+          "voice": "assets/voice/interlude_lin_childhood_visit/_0020.wav"
         },
         {
           "src": "se/wind_chime.mp3",
@@ -532,11 +591,13 @@
         },
         {
           "text": "风卷着雨丝吹过，茶屋的蓝布门帘被掀起来一角，隐约能看见里面暖黄的灯光，还有苍依弯腰擦桌子的模糊剪影。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0022.wav"
         },
         {
           "text": "凛站在雨里看了片刻，终于转过身，往巷口的方向慢慢走去，靴底踩在沾了水的青石板上，发出轻而稳的声响。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_lin_childhood_visit/__narrator___0023.wav"
         },
         {
           "type": "hide",
@@ -551,7 +612,7 @@
           "transition": "fade"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/interlude_lin_childhood_visit.jpg",
       "description": "汐月町深夜的老街巷，飘着细雨，街灯晕开暖黄色的光圈，青石板路沾着水光"
     },
     "yayi_sweet_pastry_shop__daily": {
@@ -570,23 +631,28 @@
         },
         {
           "text": "下午三点的阳光斜斜扫过芽衣果子店的落地玻璃窗，玻璃上贴着的手绘和果子贴纸被晒得微微发烫，暖金色的光在米白色的木质地板上投下软软的光斑。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0002.wav"
         },
         {
           "text": "苍依推开门的时候，挂在门楣上的铜铃叮铃响了一声，刚烤好的奶酥香混着蜜渍红豆的甜香扑面而来，裹着暖意扑了她满脸。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0003.wav"
         },
         {
           "text": "柜台上整整齐齐码着刚做好的樱饼，粉色的道明寺粉饼皮上沾着细碎的盐渍樱花瓣，表皮还冒着淡淡的白汽，旁边摆着一小罐免费提供的焙茶粉。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0004.wav"
         },
         {
           "text": "墙角的猫爬架上，常来町里晃的三花流浪猫正团成圆滚滚的球打盹，蓬松的尾巴时不时晃一下，扫过旁边堆着的印着樱花图案的打包纸袋。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0005.wav"
         },
         {
           "text": "苍依抬手把被风吹乱的碎发别到耳后，银质茶花发簪碰着耳尖，凉丝丝的触感让她弯了弯眼，她已经记不清有多少个下午像这样，从自己的茶屋走过来，蹭芽衣刚做好的点心吃。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0006.wav"
         },
         {
           "type": "show",
@@ -598,7 +664,8 @@
           "text": "芽衣，我来蹭今天的限定点心啦。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0008.wav"
         },
         {
           "type": "hide",
@@ -615,7 +682,8 @@
           "text": "就知道你这个时间点来，樱饼刚做好十分钟，还热着呢，给你留了两个加了红豆馅的。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0011.wav"
         },
         {
           "type": "hide",
@@ -632,7 +700,8 @@
           "text": "你怎么知道我要红豆馅的？我上周还说要尝栗子馅的来着。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0014.wav"
         },
         {
           "type": "hide",
@@ -649,7 +718,8 @@
           "text": "栗子馅的上周就给你留过啦，你上周吃的时候说红豆馅的配你店里的乌龙最合适，我记着呢。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0017.wav"
         },
         {
           "type": "hide",
@@ -666,7 +736,8 @@
           "text": "啊…我随口说的你居然也记下来了。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "embarrassed"
+          "expression": "embarrassed",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0020.wav"
         },
         {
           "type": "hide",
@@ -683,7 +754,8 @@
           "text": "你的话我当然都记得啊。对了，刚才张奶奶过来买点心，还给你带了自家种的橘子，说上次你帮她看了一下午的小孙子，特意谢你的。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0023.wav"
         },
         {
           "type": "hide",
@@ -700,7 +772,8 @@
           "text": "张奶奶啊…我都忘了这事了，她太客气了。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "thinking"
+          "expression": "thinking",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0026.wav"
         },
         {
           "type": "hide",
@@ -717,7 +790,8 @@
           "text": "还有啊，上周我们说的老街美食节的事，居委会刚才来人通知，让我们两家都报个摊位，说茶屋和果子店是咱们町的招牌呢。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0029.wav"
         },
         {
           "type": "hide",
@@ -734,7 +808,8 @@
           "text": "好啊，我打算到时泡桂花乌龙卖，再做一点外婆传的茶点，你呢？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0032.wav"
         },
         {
           "type": "hide",
@@ -751,17 +826,20 @@
           "text": "我做樱饼和奶酥，还有你最爱吃的红豆铜锣烧，到时我们两个摊位挨在一起，还能互相蹭吃。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0035.wav"
         },
         {
           "text": "苍依看着芽衣眼睛亮闪闪的样子，嘴角的笑意压都压不住，之前那些关于残灵、关于渡使的沉重记忆，好像都在这样细碎的日常里慢慢化了，变成了手里点心的甜，身边人的体温，还有吹过老街的温软的风。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0036.wav"
         },
         {
           "text": "对了，你之前不是说想找个时间去海边看日落吗？下周刚好我休店一天，我们一起去吧？",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0037.wav"
         },
         {
           "type": "hide",
@@ -778,7 +856,8 @@
           "text": "真的？我还以为你要忙点心店的事没时间呢。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0040.wav"
         },
         {
           "type": "hide",
@@ -795,7 +874,8 @@
           "text": "再忙也有陪你的时间啊，而且海边的风一吹，整个人都放松了，刚好我们还可以带点点心去野餐。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0043.wav"
         },
         {
           "type": "hide",
@@ -803,18 +883,20 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch06_ya_yi_2.jpg",
+          "src": "assets/cg/ch06_ya_yi_2.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
         },
         {
           "text": "苍依走到柜台边，伸手拿起一个温热的樱饼咬了一口，软绵的饼皮带着樱花的淡香，红豆馅甜得刚好，一点都不腻，就像她现在过的日子，平淡，却满是让人安心的甜。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0046.wav"
         },
         {
           "text": "打盹的三花猫醒了过来，喵呜了一声跳下台子，蹭了蹭苍依的裤腿，芽衣笑着拿了一小块奶酥递过去，小猫叼着奶酥，晃着尾巴跑到门口晒太阳去了。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0047.wav"
         },
         {
           "type": "hide",
@@ -831,7 +913,8 @@
           "text": "嗯，没有什么比现在更好了。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0050.wav"
         },
         {
           "type": "hide",
@@ -839,25 +922,27 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch06_ya_yi_3.jpg",
+          "src": "assets/cg/ch06_ya_yi_3.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
         },
         {
           "text": "门楣上的铜铃又叮铃响了一声，背着书包的小学生蹦蹦跳跳地跑进来，奶声奶气地要两个草莓大福，芽衣笑着应了一声，转身去柜子里拿点心，阳光落在她的发梢上，镀上了一层软软的金边。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0053.wav"
         },
         {
           "text": "苍依咬着樱饼靠在柜台边，看着街上人来人往，卖糖葫芦的叫卖声远远飘过来，混着果子店的甜香，日子慢悠悠地往前淌着，温暖又安稳，像永远都不会到头。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0054.wav"
         },
         {
           "type": "end",
           "ending_id": "end_normal_yayi"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/yayi_sweet_pastry_shop__daily.jpg",
       "description": ""
     },
     "inside_grandma_tea_house__daily": {
@@ -880,23 +965,28 @@
         },
         {
           "text": "午后的阳光斜斜穿过茶屋糊着棉纸的木格窗，在深棕色的木质地板上投下错落的方格印，晒得脚边的旧藤椅都泛着暖烘烘的木头香气。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0003.wav"
         },
         {
           "text": "煤炉上的铜壶咕嘟咕嘟冒着细密的白汽，水蒸气顺着壶嘴飘到房梁上，沾得挂着的干桂花串微微晃荡，甜香混着茶香漫得满屋子都是。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0004.wav"
         },
         {
           "text": "竹编门帘上挂着的铜铃偶尔被穿堂风掀得叮铃轻响，外面老街的巷子里飘来卖糖炒栗子的叫卖声，拖着慢悠悠的尾音，混着远处渔船的汽笛声。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0005.wav"
         },
         {
           "text": "苍依手里捏着干净的棉麻布，正挨个擦着橱柜上摆着的青瓷茶杯，指尖蹭过杯壁上细碎的冰裂纹，那是外婆生前最爱用的一套茶具。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0006.wav"
         },
         {
           "text": "她鼻尖动了动，闻见空气里除了茶香之外，还混着一丝熟悉的麦香和黄油味，嘴角不自觉地弯了弯——她知道芽衣快要来了。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0007.wav"
         },
         {
           "type": "show",
@@ -908,11 +998,13 @@
           "text": "今天的桂花乌龙焖了快半个钟头，香气全出来了，等会儿她肯定又要抢着喝第一杯。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0009.wav"
         },
         {
           "text": "话音刚落，门帘上的铜铃就叮铃铃响得脆生，暖金色的阳光裹着更浓的甜香扑进屋里，芽衣拎着印着小雏菊图案的牛皮纸袋站在门口，发梢还沾着点外面沾的杨絮。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0010.wav"
         },
         {
           "type": "hide",
@@ -929,13 +1021,15 @@
           "text": "哟，你这鼻子可真灵，我还没进门你就知道是我了？",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0013.wav"
         },
         {
           "text": "喏，刚烤好的奶黄酥，还热乎着呢，我特意多放了咸蛋黄，你上次说喜欢这个口感。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0014.wav"
         },
         {
           "type": "hide",
@@ -952,7 +1046,8 @@
           "text": "我就知道你今天会做这个，上周陈阿婆来喝茶吃了两块，说念了好几天，你是不是多做了要给她送过去？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0017.wav"
         },
         {
           "type": "hide",
@@ -969,11 +1064,13 @@
           "text": "你怎么什么都猜得到啊？跟你待久了我脑子里想什么都瞒不住你。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0020.wav"
         },
         {
           "text": "两个人围着临窗的小木桌坐下来，苍依拿过两个薄胎白瓷杯，倒了两杯浅琥珀色的茶汤，细碎的金桂在水面打着转，香气直往鼻子里钻。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0021.wav"
         },
         {
           "type": "hide",
@@ -990,7 +1087,8 @@
           "text": "昨天张爷爷来取他送过来修的旧收音机，说最近晚上总能听见院子里有猫叫，睡得比之前踏实多了。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0024.wav"
         },
         {
           "type": "hide",
@@ -1007,7 +1105,8 @@
           "text": "哦那只三花啊，我上周给它喂了小鱼干，它现在天天蹲我店门口要吃的，机灵得很，晚上就蜷在张爷爷院子的墙头上晒太阳。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0027.wav"
         },
         {
           "type": "hide",
@@ -1024,11 +1123,13 @@
           "text": "之前总觉得外婆留的这根银茶花发簪沉得慌，现在戴久了，反而觉得跟普通的发饰没什么两样。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "thinking"
+          "expression": "thinking",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0030.wav"
         },
         {
           "text": "她抬手摸了摸别在发侧的银簪，冰凉的金属被体温焐得暖融融的，簪头的茶花纹路被阳光照得亮闪闪的，早就没有了之前带着的那点清冷的灵力气息。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0031.wav"
         },
         {
           "type": "hide",
@@ -1045,11 +1146,13 @@
           "text": "这样不好吗？咱们现在就守着这一条街的老街坊，天天有茶喝有点心吃，还有什么不满足的？",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0034.wav"
         },
         {
           "text": "风穿过窗棂吹进来，窗台上摆着的茉莉盆栽晃了晃，一片雪白的花瓣飘下来，刚好落在苍依面前的茶杯里，在琥珀色的茶汤上打了个转，慢悠悠沉了下去。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0035.wav"
         },
         {
           "type": "hide",
@@ -1066,7 +1169,8 @@
           "text": "嗯，没有什么比现在更好了。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0038.wav"
         },
         {
           "type": "hide",
@@ -1074,14 +1178,15 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch06_ya_yi_1.jpg",
+          "src": "assets/cg/ch06_ya_yi_1.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
         },
         {
           "text": "苍依端起茶杯抿了一口，桂花的甜混着乌龙的香，还有一点茉莉的清冽，暖融融的茶汤顺着喉咙滑下去，连心口都暖得发烫。窗外的叫卖声还在飘，铜壶的咕嘟声还在响，日子慢得像是要永远停在这个晒着太阳的午后。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__daily/__narrator___0041.wav"
         },
         {
           "type": "choice",
@@ -1100,7 +1205,7 @@
           ]
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/inside_grandma_tea_house__daily.jpg",
       "description": ""
     },
     "interlude_avoid_grandma_notebook": {
@@ -1123,17 +1228,20 @@
         },
         {
           "text": "第二日辰时，温暖的阳光透过茶屋的木格窗落在堂屋的八仙桌上，蒼依换了干净的工作服，正准备收拾昨晚散落的杂物。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0003.wav"
         },
         {
           "text": "桌面上的白瓷杯里盛着刚泡好的月见茶，淡白色的热气慢悠悠往上飘，混着阳光落在她搭在桌沿的手背上。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0004.wav"
         },
         {
           "text": "昨晚把收拾到一半的杂物都塞抽屉里了，得整理出来才行。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0005.wav"
         },
         {
           "type": "se",
@@ -1141,11 +1249,13 @@
         },
         {
           "text": "蒼依伸手拉开八仙桌右侧的木抽屉，里面堆着茶包、擦桌布，还有昨晚随手放进去的旧灯笼挂绳。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0007.wav"
         },
         {
           "text": "她的指尖在杂物里翻找时，忽然碰到了一个硬邦邦的、封皮带着粗糙纹理的物件。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0008.wav"
         },
         {
           "type": "show",
@@ -1155,7 +1265,8 @@
         },
         {
           "text": "她把那东西抽出来，才发现是外婆留下的黑皮渡使笔记，不知道什么时候滑进了抽屉深处，封皮上已经落了一层薄薄的灰。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0010.wav"
         },
         {
           "type": "effect",
@@ -1163,7 +1274,8 @@
         },
         {
           "text": "指尖碰到封皮的瞬间，细小的灰尘在阳光里扬起，落在她雾蓝色的袖口上。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0012.wav"
         },
         {
           "type": "show",
@@ -1175,11 +1287,13 @@
           "text": "我……上次把它塞在这里，已经快半年了吧。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "thinking"
+          "expression": "thinking",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0014.wav"
         },
         {
           "text": "外婆走前特意把这本笔记和她头上的银茶花发簪一起交到她手里，说这是每代渡使必须传承的东西，记着百年来汐月町所有残灵的归宿。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0015.wav"
         },
         {
           "type": "show",
@@ -1189,17 +1303,20 @@
         },
         {
           "text": "她的拇指无意识摩挲着笔记封皮上烫金的茶花纹样，指尖悬在金属搭扣上半天，迟迟没有动作。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0017.wav"
         },
         {
           "text": "只要翻开它，就意味着我要接过渡使的责任，对吧？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "serious"
+          "expression": "serious",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0018.wav"
         },
         {
           "text": "她想起上次翻开扉页时看到的外婆的字迹——「渡使守的从来不是阴阳，是活人的念想，旧物的余温」，那时她只觉得心脏像是被什么东西压得喘不过气，慌忙把本子合了起来。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0019.wav"
         },
         {
           "type": "show",
@@ -1211,11 +1328,13 @@
           "text": "可是我……还没准备好。我怕我做不好，辜负外婆的期望，也怕……面对那些沉甸甸的执念。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "sad"
+          "expression": "sad",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0021.wav"
         },
         {
           "text": "她的指尖微微颤抖，好几次用力捏住搭扣要掀开，最后还是泄了气似的松了手。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0022.wav"
         },
         {
           "type": "se",
@@ -1223,7 +1342,8 @@
         },
         {
           "text": "她从口袋里掏出干净的棉巾，仔仔细细把封皮上的薄灰擦得干干净净，烫金的茶花纹样在阳光下泛着柔和的光。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0024.wav"
         },
         {
           "type": "show",
@@ -1233,7 +1353,8 @@
         },
         {
           "text": "犹豫了半晌，她还是把笔记重新塞回了抽屉的最深处，压在了一叠未拆封的新茶包下面。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0026.wav"
         },
         {
           "type": "se",
@@ -1241,20 +1362,23 @@
         },
         {
           "text": "咔哒一声轻响，抽屉被她推回原位，仿佛也把那份沉甸甸的责任暂时锁在了看不见的地方。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0028.wav"
         },
         {
           "text": "……再给我一点时间吧，外婆。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0029.wav"
         },
         {
           "text": "她端起桌上微凉的月见茶抿了一口，淡淡的苦味混着茶香漫开，阳光依旧暖融融地落在桌面上，仿佛什么都没有发生过。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0030.wav"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/interlude_avoid_grandma_notebook.jpg",
       "description": "茶屋堂屋靠窗的八仙桌边，阳光晒着擦得发亮的木桌面，茶杯里的月见茶冒着淡热气"
     },
     "inside_grandma_tea_house__inherit": {
@@ -1273,19 +1397,23 @@
         },
         {
           "text": "茶屋里的陈设和蒼依记忆里分毫不差，靠窗的八仙桌擦得发亮的痕迹还留在桌面上，是外婆生前每天擦三遍留下来的。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0002.wav"
         },
         {
           "text": "柜台后的木架上整整齐齐摆着半人高的陶制茶罐，罐身上贴着外婆写的毛笔字标签，分别装着炒青、茉莉、桂花乌龙，还有她最爱的白牡丹。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0003.wav"
         },
         {
           "text": "空气里飘着陈年铁观音混合晒干橘皮的淡香，混着从门缝钻进来的海风咸腥味，是属于外婆和茶屋独有的味道。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0004.wav"
         },
         {
           "text": "她把行李箱放在门口的脚垫上，指尖扫过柜台上积的薄灰，指腹沾了细细一层，带着旧木头的质感。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0005.wav"
         },
         {
           "type": "show",
@@ -1295,37 +1423,45 @@
         },
         {
           "text": "蒼依抬起手腕揉了揉右眼，刚才进门的时候就隐隐发疼的灵眼此刻跳得更厉害了，仿佛有什么东西在茶屋深处盯着她看。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0007.wav"
         },
         {
           "text": "她下意识皱了皱眉，从小就不喜欢这份突如其来的感应，每次灵眼发疼都意味着她又要撞见不属于现世的存在。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0008.wav"
         },
         {
           "text": "她走到柜台后的洗手池边洗干净手，先取下挂在挂钩上的白瓷茶具，准备先泡一壶外婆最爱的白牡丹。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0009.wav"
         },
         {
           "text": "外婆说过，泡茶之前先烫三次茶具，茶的香气才不会被杂味盖住。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0010.wav"
         },
         {
           "text": "她动作熟练地把热水倒进茶壶里晃了三圈倒掉，重复了三次，动作一丝不苟，和外婆当年教她的时候一模一样。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0011.wav"
         },
         {
           "text": "滚水冲进放了干茶的茶壶里，奶白色的热气立刻冒了上来，裹挟着白牡丹特有的清甜味散满了半间屋子。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0012.wav"
         },
         {
           "text": "她把泡好的茶放在柜台上晾着，转身蹲下来翻靠墙的旧木柜，里面堆着外婆生前用的帕子、账本，还有一摞她小时候画的歪歪扭扭的蜡笔画。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0013.wav"
         },
         {
           "text": "账本的扉页夹着一张泛黄的照片，是十岁的她蹲在茶屋门口吃馒头，外婆站在她身后，手搭在她的肩膀上，笑得眉眼都弯了起来。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0014.wav"
         },
         {
           "type": "hide",
@@ -1333,7 +1469,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch01_2.jpg",
+          "src": "assets/cg/ch01_2.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -1349,15 +1485,18 @@
           "text": "原来这些东西外婆都还留着，我还以为早就被扔掉了。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0018.wav"
         },
         {
           "text": "她指尖碰到一个硬邦邦的纸包，抽出来一看，是叠得整整齐齐的素白纸灯笼，纸面上还印着淡淡的山茶花纹，和外婆当年每年十五挂在门口的一模一样。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0019.wav"
         },
         {
           "text": "灵眼突然又是一阵尖锐的疼，她忍不住闭了闭眼，恍惚间仿佛看见一个穿蓝布衫的老人站在灯笼旁边，笑着朝她招手，再睁开眼的时候又什么都没有。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0020.wav"
         },
         {
           "type": "hide",
@@ -1365,7 +1504,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch01_3.jpg",
+          "src": "assets/cg/ch01_3.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -1381,21 +1520,25 @@
           "text": "外婆？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0024.wav"
         },
         {
           "text": "只有风从半开的窗户吹进来，吹动桌上的账本页角哗啦啦响，没有任何回应。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0025.wav"
         },
         {
           "text": "说起来，再过三天就是十五了，外婆往年都会提前三天把灯笼挂起来的。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "thinking"
+          "expression": "thinking",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0026.wav"
         },
         {
           "text": "汐月町的住户每到十五都会在门口挂一盏素纸灯笼，据说是给迷路的残灵照路，也能避免残灵误闯民宅惊扰普通人，这是传了几十年的老规矩。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0027.wav"
         },
         {
           "src": "se/knock_door.mp3",
@@ -1403,21 +1546,25 @@
         },
         {
           "text": "门口突然传来笃笃的敲门声，伴随着熟悉的苍老声音，隔着木门传了进来。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0029.wav"
         },
         {
           "text": "蒼依把灯笼放在桌上，走过去拉开门，隔壁的王阿婆正拎着一个竹编食盒站在门口，脸上堆着和蔼的笑。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0030.wav"
         },
         {
           "text": "王阿婆把食盒递到她手里，说里面是刚蒸好的潮汐馒头，特意多做了两个无桂花的咸口款，知道她和芽衣都不爱吃甜口的。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0031.wav"
         },
         {
           "text": "谢谢阿婆，刚好芽衣今天下班要过来，我正愁没东西招待她呢。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0032.wav"
         },
         {
           "type": "set",
@@ -1426,32 +1573,37 @@
         },
         {
           "text": "阿婆又叮嘱了她几句，说再过三天就是十五了，别忘了把门口的素纸灯笼挂上，说完就拎着空食盒慢悠悠走了。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0034.wav"
         },
         {
           "text": "蒼依关上门，把食盒放在桌上，打开盖子，馒头的热气混着豆沙和麦香飘了出来，和记忆里的味道一模一样。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0035.wav"
         },
         {
           "text": "外婆你放心，十五的灯笼我会挂好，茶屋我也会好好守着的。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "serious"
+          "expression": "serious",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0036.wav"
         },
         {
           "text": "她拿起桌上叠得整整齐齐的素纸灯笼，指尖抚过纸面上的山茶花印，灵眼的疼痛不知什么时候已经消了下去。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0037.wav"
         },
         {
           "text": "茶碗里的白牡丹正慢慢舒展着叶片，淡金色的茶汤晃了晃，倒映出她别在发间的银质茶花发簪，亮得像外婆留在时光里的眼睛。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0038.wav"
         },
         {
           "type": "jump",
           "target": "interlude_childhood_isolated_memory"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/inside_grandma_tea_house__inherit.jpg",
       "description": ""
     },
     "interlude_yayi_secret_help_spirit": {
@@ -1478,20 +1630,23 @@
         },
         {
           "text": "蒼依拎着刚打包好的海盐芝士蛋糕刚踏出店门，挂在门檐的黄铜风铃晃了晃，落下一串软乎乎的叮铃声。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0003.wav"
         },
         {
           "text": "路上小心哦~明天记得带外婆腌的紫苏梅子给我尝呀！",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0004.wav"
         },
         {
           "type": "wait"
         },
         {
           "text": "芽衣趴在冰凉的木质收银台上晃了晃脚，指尖无意识蹭过案板上还带着余温的蛋糕杯，细碎的干桂花香气飘得满室都是。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0006.wav"
         },
         {
           "src": "se_drawer_open",
@@ -1499,40 +1654,47 @@
         },
         {
           "text": "她抬手拉开收银台最下层的上锁抽屉，指尖碰到了一枚凉冰冰、磨得发亮的黄铜纽扣。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0008.wav"
         },
         {
           "text": "纽扣边缘有几道深浅不一的磨痕，是被人常年揣在手心摩挲才会留下的印记。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0009.wav"
         },
         {
           "text": "算起来，这都是半个月前的事了呀。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "serious"
+          "expression": "serious",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0010.wav"
         },
         {
           "text": "那时候她刚打扫完店后门的台阶，就看见一只橘白黑三色的大花猫蹲在台阶边，嘴里叼着这枚纽扣，背上飘着半透明的、穿洗得发白的旧军装的老人影子。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0011.wav"
         },
         {
           "text": "我当时还揉了三次眼睛，以为自己烤蛋糕烤太久眼花了呢，原来蒼依小时候说的能看见残灵的事，都是真的呀。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0012.wav"
         },
         {
           "type": "wait"
         },
         {
           "text": "那残灵好像知道她能看见自己似的，连着三天都蹲在洋果子店门口，爪子扒着那枚纽扣蹭她的姜黄色帆布鞋。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0014.wav"
         },
         {
           "text": "好啦好啦，我知道你要把这个送给住在老巷口的陈阿婆对不对？我帮你送过去啦，你别再蹲我家门口啦，我妈都以为我偷偷在外头养猫要骂我了。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "laugh"
+          "expression": "laugh",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0015.wav"
         },
         {
           "src": "se_cat_meow_soft",
@@ -1540,27 +1702,32 @@
         },
         {
           "text": "三花猫蹭了蹭她的手背，背着半透明的老人影子晃着蓬松的尾巴跑走了，之后再也没有出现在洋果子店附近。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0017.wav"
         },
         {
           "text": "第二天她趁着送定制蛋糕的空隙，把那枚纽扣悄悄放在了陈阿婆家门口的针线筐里，阿婆摸着纽扣掉了好久的眼泪，说这是她老伴年轻时军装上面的扣子，丢了快五十年了。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0018.wav"
         },
         {
           "text": "她躲在巷口的梧桐树后面看着阿婆把纽扣攥在手心里进了屋，风卷起地上的梧桐叶擦过她的脚踝，暖乎乎的。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0019.wav"
         },
         {
           "text": "说起来我当时还特意绕了三条小巷才敢过去，把扣子放下就跑，生怕被阿婆当成偷东西的怪人呢。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "embarrassed"
+          "expression": "embarrassed",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0020.wav"
         },
         {
           "text": "后来阿婆还特意来店里买了草莓大福谢我，说最近总梦到老头子说没遗憾了，可开心了。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0021.wav"
         },
         {
           "src": "effect_sunset_glow_flicker",
@@ -1569,23 +1736,27 @@
         },
         {
           "text": "橘红色的夕阳透过玻璃窗落在她指尖的纽扣上，映出细碎的金色光斑，她晃了晃右手腕的电子表，烤戚风蛋糕的闹钟还有十分钟就要响了。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0023.wav"
         },
         {
           "text": "她指尖蹭了蹭颈间挂着的干桂花吊坠，那是去年秋天蒼依帮她摘了茶屋院子里的金桂压成的，总带着淡淡的甜香。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0024.wav"
         },
         {
           "text": "我本来想把这件事告诉蒼依的，可是看见她每次提到残灵都怕得要躲到被子里，还是算了吧。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "serious"
+          "expression": "serious",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0025.wav"
         },
         {
           "text": "反正只要她能开开心心的，这些小事我帮她处理掉就好啦，才不要告诉她呢，省得她又要担惊受怕好久。",
           "type": "dialog",
           "character": "ya_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0026.wav"
         },
         {
           "src": "se_drawer_close",
@@ -1593,7 +1764,8 @@
         },
         {
           "text": "她把纽扣小心放回抽屉里上好锁，拍了拍手上的灰，拎着放在一边的裱花袋走到案板旁边，准备给明天来买蛋糕的幼儿园小朋友多撒点干桂花碎。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0028.wav"
         },
         {
           "type": "hide",
@@ -1609,7 +1781,7 @@
           "target": "inside_grandma_tea_house__rin_visit"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/interlude_yayi_secret_help_spirit.jpg",
       "description": "洋果子店的收银台边，夕阳斜照进来，案板上摆着刚做好的海盐芝士杯子蛋糕，撒着干桂花"
     },
     "old_street_outside_tea_house__day": {
@@ -1632,31 +1804,38 @@
         },
         {
           "text": "九月的海风裹着咸湿的潮气扫过汐月町的青石板路，路两边骑楼檐下挂着的晒干渔网被风吹得晃出细碎的阴影。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0003.wav"
         },
         {
           "text": "空气里混着隔壁海产店的咸鲜味、路边九里香的甜香，还有身后老茶屋飘出来的陈年普洱香气，层层叠叠裹在风里撞过来，都是蒼依记忆里的味道。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0004.wav"
         },
         {
           "text": "明晃晃的日光斜斜落在茶屋斑驳的木质招牌上，「月见茶屋」四个朱漆字已经掉了大半，边缘被多年的海风磨得发亮。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0005.wav"
         },
         {
           "text": "木门槛边摆着几盆开得细碎的蓝雪花，花瓣上还沾着刚浇完水的水珠，风一吹就簌簌往下掉。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0006.wav"
         },
         {
           "text": "蒼依拖着24寸的银灰色行李箱站在茶屋门口，指尖划过冰凉的木门框，触感和她七岁那年外婆牵着她的手第一次进门时一模一样。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0007.wav"
         },
         {
           "text": "她下意识抬手摸了摸鬓边别着的银质茶花发簪，那是外婆弥留之际塞到她手里的，说这是茶屋代代传承的主人信物。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0008.wav"
         },
         {
           "text": "左腕上磨得发毛的红绳平安结被风刮得晃了晃，那是童年好友芽衣十岁那年送给她的生日礼物，她戴了十二年从来没摘下来过。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0009.wav"
         },
         {
           "type": "show",
@@ -1668,7 +1847,8 @@
           "text": "终于...回来了啊。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/old_street_outside_tea_house__day/cang_yi_0011.wav"
         },
         {
           "type": "hide",
@@ -1676,7 +1856,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch01_1.jpg",
+          "src": "assets/cg/ch01_1.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -1690,63 +1870,76 @@
         },
         {
           "text": "她弯腰把行李箱靠在门槛边，指尖刚碰到木门把手的瞬间，额角靠近左眉骨的位置突然泛起一阵熟悉的灼痛感。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0015.wav"
         },
         {
           "text": "蒼依下意识攥紧了左腕的红绳，眉尖微微蹙起，那是灵眼对附近残灵产生反应的征兆，从小到大她已经经历过无数次。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0016.wav"
         },
         {
           "text": "才刚回到茶屋就有反应吗...",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "serious"
+          "expression": "serious",
+          "voice": "assets/voice/old_street_outside_tea_house__day/cang_yi_0017.wav"
         },
         {
           "text": "她连忙从随身的帆布包里掏出半瓶早上装的冷麦茶，仰头灌了一大口，冰凉的液体滑过喉咙，额角的灼痛感才慢慢平复下来。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0018.wav"
         },
         {
           "text": "竹编篮子碰撞的脆响从巷口传过来，隔壁住了几十年的陈阿婆提着一摞热气腾腾的点心，踩着青石板路慢悠悠走了过来。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0019.wav"
         },
         {
           "text": "阿婆脸上的皱纹笑成了绽开的菊花，把还冒着热气的油纸包塞到蒼依手里，一口带着海蛎子味的本地口音爽朗得很，说这是今早刚蒸好的潮汐馒头，十五快到了，吃了能安魂，别被路过的残灵惊扰。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0020.wav"
         },
         {
           "text": "谢谢陈阿婆，您还记得我最爱吃这个。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "happy"
+          "expression": "happy",
+          "voice": "assets/voice/old_street_outside_tea_house__day/cang_yi_0021.wav"
         },
         {
           "text": "汐月町的潮汐馒头用海水晒制的盐调豆沙内馅，甜里带点鲜，是本地独有的特色点心，每到十五前后家家户户都会蒸上一筐。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0022.wav"
         },
         {
           "text": "阿婆临走前还反复叮嘱她，别忘了按老规矩，十五之前在茶屋门口挂一盏素白纸灯笼，给迷路的残灵照路，也免得它们误闯进来打扰普通人。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0023.wav"
         },
         {
           "text": "好的阿婆，我整理完东西就去巷口的杂货铺买灯笼挂上。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/old_street_outside_tea_house__day/cang_yi_0024.wav"
         },
         {
           "text": "蒼依捧着还发烫的油纸包站在门口，指尖碰到油纸表面渗出的一点油星，忽然想起小时候每到十五，外婆也会领着她站在这个位置，接过阿婆递来的热馒头。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0025.wav"
         },
         {
           "text": "那时候她总嫌豆沙馅太甜，外婆就会提前跟阿婆订两个不放桂花的咸口馒头，留着单独给她吃。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0026.wav"
         },
         {
           "text": "说起来，芽衣也不爱吃桂花馅，等她下班过来，刚好可以给她留两个。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "thinking"
+          "expression": "thinking",
+          "voice": "assets/voice/old_street_outside_tea_house__day/cang_yi_0027.wav"
         },
         {
           "type": "set",
@@ -1772,7 +1965,7 @@
           "target": "inside_grandma_tea_house"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/old_street_outside_tea_house__day.jpg",
       "description": ""
     },
     "inside_grandma_tea_house__fullmoon": {
@@ -1980,7 +2173,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch02_1.jpg",
+          "src": "assets/cg/ch02_1.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -2011,7 +2204,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch02_2.jpg",
+          "src": "assets/cg/ch02_2.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -2025,7 +2218,7 @@
           "target": "old_street_outside_tea_house"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/inside_grandma_tea_house__fullmoon.jpg",
       "description": ""
     },
     "inside_grandma_tea_house__rin_visit": {
@@ -2046,7 +2239,7 @@
           "target": "side_camellia_s1"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/inside_grandma_tea_house__rin_visit.jpg",
       "description": ""
     },
     "interlude_childhood_isolated_memory": {
@@ -2183,7 +2376,7 @@
           "action": "fade_out"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/interlude_childhood_isolated_memory.jpg",
       "description": "茶屋堆满旧藤箱、木架的库房，阳光从高窗漏下，空气中混着旧纸张和淡桂花香气"
     },
     "old_street_outside_tea_house__night": {
@@ -2306,7 +2499,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch02_3.jpg",
+          "src": "assets/cg/ch02_3.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -2345,7 +2538,7 @@
           "target": "interlude_lin_childhood_visit"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/old_street_outside_tea_house__night.jpg",
       "description": ""
     },
     "tea_house_secret_choice_room__night": {
@@ -2399,7 +2592,7 @@
           "type": "narration"
         },
         {
-          "src": "cg/ch05_1.jpg",
+          "src": "assets/cg/ch05_1.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -2529,7 +2722,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch05_2.jpg",
+          "src": "assets/cg/ch05_2.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -2548,7 +2741,7 @@
           ]
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/tea_house_secret_choice_room__night.jpg",
       "description": ""
     },
     "inside_grandma_tea_house__spirit_reveal": {
@@ -2613,7 +2806,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch04_1.jpg",
+          "src": "assets/cg/ch04_1.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -2717,7 +2910,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch04_2.jpg",
+          "src": "assets/cg/ch04_2.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -2758,7 +2951,7 @@
           "transition": "fadeOut"
         },
         {
-          "src": "cg/ch04_3.jpg",
+          "src": "assets/cg/ch04_3.jpg",
           "mode": "full",
           "type": "cg",
           "transition": "fade"
@@ -2835,7 +3028,7 @@
           "target": "interlude_avoid_grandma_notebook"
         }
       ],
-      "background": "",
+      "background": "assets/backgrounds/inside_grandma_tea_house__spirit_reveal.jpg",
       "description": ""
     }
   },
@@ -2989,12 +3182,12 @@
       "clothing": "做旧水洗黑色羊毛高领针织衫，外搭深灰亚光皮质短外套，下装是藏青水洗直筒牛仔裤，脚穿黑色厚底帆布靴。针织衫软糯亲肤，皮衣带自然磨白痕迹，外套为Y廓形宽肩收腰，裤装为直筒H型。配饰为左耳三颗银钉（成年时家族授予的渡使身份标记）、颈间铜制旧灯笼吊坠（家族传承的渡使信物）、挎包上挂的木质迷你速写板（插画家随时打草稿用）。",
       "description": "棱角分明的小方脸，下颌线清晰利落。墨蓝色丹凤眼眼神清冷，笑起来眼尾微微上挑。深红及腰长发发质偏硬，额前散几缕碎发，右半侧头发别在耳后，发梢染三缕深紫挑染。身高168cm左右，身形高挑肩宽窄腰。冷白皮，高挺直鼻，厚唇，深黑色剑眉，左耳廓有三颗并排银钉，左眉尾有一道淡粉色旧疤。",
       "expressions": {
-        "happy": "",
-        "normal": "",
-        "tender": "",
-        "serious": "",
-        "thinking": "",
-        "surprised": ""
+        "happy": "assets/characters/lin/happy.png",
+        "normal": "assets/characters/lin/normal.png",
+        "tender": "assets/characters/lin/tender.png",
+        "serious": "assets/characters/lin/serious.png",
+        "thinking": "assets/characters/lin/thinking.png",
+        "surprised": "assets/characters/lin/surprised.png"
       }
     },
     "ya_yi": {
@@ -3003,12 +3196,12 @@
       "clothing": "米白软棉圆领T恤，外搭樱花粉磨毛灯芯绒背带裙，脚穿白色堆堆袜配姜黄色帆布鞋。背带裙为A廓形高腰宽松，活动方便。主色为樱花粉，点缀米白、姜黄。配饰为围裙口袋挂的不锈钢小刮刀（做蛋糕的常用工具）、颈间干桂花吊坠（蒼依每年帮她摘的桂花压制而成）、右手腕硅胶电子表（烤蛋糕计时用，设置了好几个定时闹钟）。",
       "description": "圆脸带婴儿肥，线条软乎乎的。浅棕色圆眼眼神灵动，总是带着笑意。蜂蜜色齐耳短发发质蓬松，左侧夹两个柠檬黄星星发夹，发尾微微内扣。身高158cm左右，身形偏圆是梨形身材。暖黄皮脸颊带淡褐色小雀斑，圆钝鼻，厚唇带自然粉，浅棕色弯眉，左脸颊有个小梨涡，笑起来会露出一颗小虎牙。",
       "expressions": {
-        "sad": "",
-        "happy": "",
-        "laugh": "",
-        "serious": "",
-        "surprised": "",
-        "embarrassed": ""
+        "sad": "assets/characters/ya_yi/sad.png",
+        "happy": "assets/characters/ya_yi/happy.png",
+        "laugh": "assets/characters/ya_yi/laugh.png",
+        "serious": "assets/characters/ya_yi/serious.png",
+        "surprised": "assets/characters/ya_yi/surprised.png",
+        "embarrassed": "assets/characters/ya_yi/embarrassed.png"
       }
     },
     "cang_yi": {
@@ -3017,13 +3210,13 @@
       "clothing": "雾蓝棉麻混纺提花改良和服，内搭米白棉麻圆领衫，下装是同色系及膝袴，脚穿白布袜配藏青软底木屐。面料柔软亲肤带暗纹，整体为宽松H廓形，腰身处用同色系布带收束。配饰为外婆传的银质茶花发簪别在编发上（渡使传承信物）、围裙口袋挂的铜制茶匙（茶屋常用工具）、左手腕红绳平安结（童年芽衣所送）。",
       "description": "鹅蛋脸线条柔和，琥珀色杏眼常带怯意，眼神躲闪时眼尾会微微泛红。深棕及腰长发发质偏软，左侧编两股细麻花别在耳后，发梢带自然卷。身高160cm左右，身形偏瘦肩窄腰细。冷白偏粉肤色，小翘鼻，薄唇，浅棕色细平眉，右眼下有一颗淡褐色泪痣，情绪激动时泪痣周围会泛浅红。",
       "expressions": {
-        "sad": "",
-        "happy": "",
-        "normal": "",
-        "serious": "",
-        "thinking": "",
-        "surprised": "",
-        "embarrassed": ""
+        "sad": "assets/characters/cang_yi/sad.png",
+        "happy": "assets/characters/cang_yi/happy.png",
+        "normal": "assets/characters/cang_yi/normal.png",
+        "serious": "assets/characters/cang_yi/serious.png",
+        "thinking": "assets/characters/cang_yi/thinking.png",
+        "surprised": "assets/characters/cang_yi/surprised.png",
+        "embarrassed": "assets/characters/cang_yi/embarrassed.png"
       }
     }
   },
@@ -3057,6 +3250,8 @@
     "backgrounds/tea_house_back_garden.jpg": "assets/backgrounds/tea_house_back_garden.jpg",
     "backgrounds/tea_house_secret_choice_room_day.jpg": "assets/backgrounds/tea_house_secret_choice_room_day.jpg",
     "backgrounds/tea_house_secret_choice_room.jpg": "assets/backgrounds/tea_house_secret_choice_room.jpg",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0005.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0005.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0006.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0006.wav",
     "backgrounds/interlude_lin_childhood_visit_day.jpg": "assets/backgrounds/interlude_lin_childhood_visit_day.jpg",
     "backgrounds/interlude_lin_childhood_visit.jpg": "assets/backgrounds/interlude_lin_childhood_visit.jpg",
     "backgrounds/side_camellia_s2_day.jpg": "assets/backgrounds/side_camellia_s2_day.jpg",
@@ -3090,6 +3285,231 @@
     "backgrounds/tea_house_back_garden__night_day.jpg": "assets/backgrounds/tea_house_back_garden__night_day.jpg",
     "backgrounds/tea_house_back_garden__night.jpg": "assets/backgrounds/tea_house_back_garden__night.jpg",
     "backgrounds/inside_grandma_tea_house__daily_day.jpg": "assets/backgrounds/inside_grandma_tea_house__daily_day.jpg",
-    "backgrounds/inside_grandma_tea_house__daily.jpg": "assets/backgrounds/inside_grandma_tea_house__daily.jpg"
+    "backgrounds/inside_grandma_tea_house__daily.jpg": "assets/backgrounds/inside_grandma_tea_house__daily.jpg",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0003.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0003.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0004.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0004.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0007.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0007.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0008.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0008.wav",
+    "voice/yayi_sweet_pastry_shop__day/cang_yi_0011.wav": "assets/voice/yayi_sweet_pastry_shop__day/cang_yi_0011.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0016.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0016.wav",
+    "voice/yayi_sweet_pastry_shop__day/ya_yi_0019.wav": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0019.wav",
+    "voice/yayi_sweet_pastry_shop__day/ya_yi_0026.wav": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0026.wav",
+    "voice/yayi_sweet_pastry_shop__day/cang_yi_0029.wav": "assets/voice/yayi_sweet_pastry_shop__day/cang_yi_0029.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0033.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0033.wav",
+    "voice/yayi_sweet_pastry_shop__day/ya_yi_0034.wav": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0034.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0039.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0039.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0009.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0009.wav",
+    "voice/yayi_sweet_pastry_shop__day/ya_yi_0017.wav": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0017.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0023.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0023.wav",
+    "voice/yayi_sweet_pastry_shop__day/ya_yi_0035.wav": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0035.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0013.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0013.wav",
+    "voice/yayi_sweet_pastry_shop__day/ya_yi_0015.wav": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0015.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0018.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0018.wav",
+    "voice/yayi_sweet_pastry_shop__day/ya_yi_0032.wav": "assets/voice/yayi_sweet_pastry_shop__day/ya_yi_0032.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0047.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0047.wav",
+    "voice/yayi_sweet_pastry_shop__day/cang_yi_0022.wav": "assets/voice/yayi_sweet_pastry_shop__day/cang_yi_0022.wav",
+    "voice/yayi_sweet_pastry_shop__day/cang_yi_0038.wav": "assets/voice/yayi_sweet_pastry_shop__day/cang_yi_0038.wav",
+    "voice/yayi_sweet_pastry_shop__day/__narrator___0041.wav": "assets/voice/yayi_sweet_pastry_shop__day/__narrator___0041.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0007.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0007.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0012.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0012.wav",
+    "voice/yayi_sweet_pastry_shop__day/lin_0044.wav": "assets/voice/yayi_sweet_pastry_shop__day/lin_0044.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0008.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0008.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0014.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0014.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0003.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0003.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0010.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0010.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0015.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0015.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0005.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0005.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0011.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0011.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0016.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0016.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0017.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0017.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0020.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0020.wav",
+    "voice/interlude_lin_earnail_origin/_0021.wav": "assets/voice/interlude_lin_earnail_origin/_0021.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0023.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0023.wav",
+    "voice/interlude_lin_earnail_origin/__narrator___0025.wav": "assets/voice/interlude_lin_earnail_origin/__narrator___0025.wav",
+    "voice/tea_house_back_garden__night/__narrator___0001.wav": "assets/voice/tea_house_back_garden__night/__narrator___0001.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0004.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0004.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0005.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0005.wav",
+    "voice/interlude_lin_childhood_visit/_0006.wav": "assets/voice/interlude_lin_childhood_visit/_0006.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0007.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0007.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0011.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0011.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0015.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0015.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0022.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0022.wav",
+    "voice/interlude_lin_childhood_visit/_0012.wav": "assets/voice/interlude_lin_childhood_visit/_0012.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0017.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0017.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0009.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0009.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0013.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0013.wav",
+    "voice/interlude_lin_childhood_visit/_0018.wav": "assets/voice/interlude_lin_childhood_visit/_0018.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0010.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0010.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0019.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0019.wav",
+    "voice/interlude_lin_childhood_visit/__narrator___0014.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0014.wav",
+    "voice/interlude_lin_childhood_visit/_0020.wav": "assets/voice/interlude_lin_childhood_visit/_0020.wav",
+    "cg/ch01_1.jpg": "assets/cg/ch01_1.jpg",
+    "cover/cover.jpg": "assets/cover/cover.jpg",
+    "characters/lin/happy.png": "assets/characters/lin/happy.png",
+    "cg/ch02_2.jpg": "assets/cg/ch02_2.jpg",
+    "cg/ch01_3.jpg": "assets/cg/ch01_3.jpg",
+    "characters/lin/serious.png": "assets/characters/lin/serious.png",
+    "cg/ch01_2.jpg": "assets/cg/ch01_2.jpg",
+    "cg/ch02_1.jpg": "assets/cg/ch02_1.jpg",
+    "characters/lin/normal.png": "assets/characters/lin/normal.png",
+    "characters/lin/tender.png": "assets/characters/lin/tender.png",
+    "cg/ch02_3.jpg": "assets/cg/ch02_3.jpg",
+    "characters/lin/thinking.png": "assets/characters/lin/thinking.png",
+    "cg/ch04_3.jpg": "assets/cg/ch04_3.jpg",
+    "voice/yayi_sweet_pastry_shop__daily/cang_yi_0008.wav": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0008.wav",
+    "voice/yayi_sweet_pastry_shop__daily/ya_yi_0017.wav": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0017.wav",
+    "cg/ch05_2.jpg": "assets/cg/ch05_2.jpg",
+    "voice/yayi_sweet_pastry_shop__daily/cang_yi_0050.wav": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0050.wav",
+    "characters/cang_yi/thinking.png": "assets/characters/cang_yi/thinking.png",
+    "voice/inside_grandma_tea_house__daily/ya_yi_0020.wav": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0020.wav",
+    "cg/ch04_1.jpg": "assets/cg/ch04_1.jpg",
+    "characters/cang_yi/normal.png": "assets/characters/cang_yi/normal.png",
+    "voice/yayi_sweet_pastry_shop__daily/ya_yi_0023.wav": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0023.wav",
+    "voice/yayi_sweet_pastry_shop__daily/cang_yi_0032.wav": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0032.wav",
+    "voice/yayi_sweet_pastry_shop__daily/ya_yi_0037.wav": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0037.wav",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0046.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0046.wav",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0053.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0053.wav",
+    "voice/inside_grandma_tea_house__daily/__narrator___0003.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0003.wav",
+    "cg/ch03_1.jpg": "assets/cg/ch03_1.jpg",
+    "voice/interlude_lin_childhood_visit/__narrator___0023.wav": "assets/voice/interlude_lin_childhood_visit/__narrator___0023.wav",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0002.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0002.wav",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0005.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0005.wav",
+    "characters/cang_yi/sad.png": "assets/characters/cang_yi/sad.png",
+    "voice/yayi_sweet_pastry_shop__daily/ya_yi_0035.wav": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0035.wav",
+    "voice/yayi_sweet_pastry_shop__daily/cang_yi_0040.wav": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0040.wav",
+    "characters/cang_yi/serious.png": "assets/characters/cang_yi/serious.png",
+    "voice/inside_grandma_tea_house__daily/__narrator___0035.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0035.wav",
+    "characters/lin/surprised.png": "assets/characters/lin/surprised.png",
+    "cg/ch04_2.jpg": "assets/cg/ch04_2.jpg",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0003.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0003.wav",
+    "cg/ch05_1.jpg": "assets/cg/ch05_1.jpg",
+    "voice/yayi_sweet_pastry_shop__daily/ya_yi_0029.wav": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0029.wav",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0047.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0047.wav",
+    "characters/cang_yi/surprised.png": "assets/characters/cang_yi/surprised.png",
+    "voice/inside_grandma_tea_house__daily/__narrator___0006.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0006.wav",
+    "voice/inside_grandma_tea_house__daily/ya_yi_0034.wav": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0034.wav",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0004.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0004.wav",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0006.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0006.wav",
+    "voice/yayi_sweet_pastry_shop__daily/cang_yi_0014.wav": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0014.wav",
+    "voice/yayi_sweet_pastry_shop__daily/cang_yi_0020.wav": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0020.wav",
+    "voice/yayi_sweet_pastry_shop__daily/cang_yi_0026.wav": "assets/voice/yayi_sweet_pastry_shop__daily/cang_yi_0026.wav",
+    "characters/cang_yi/embarrassed.png": "assets/characters/cang_yi/embarrassed.png",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0054.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0054.wav",
+    "voice/inside_grandma_tea_house__daily/ya_yi_0014.wav": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0014.wav",
+    "voice/inside_grandma_tea_house__daily/__narrator___0021.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0021.wav",
+    "voice/inside_grandma_tea_house__daily/ya_yi_0027.wav": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0027.wav",
+    "characters/cang_yi/happy.png": "assets/characters/cang_yi/happy.png",
+    "voice/yayi_sweet_pastry_shop__daily/ya_yi_0011.wav": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0011.wav",
+    "voice/yayi_sweet_pastry_shop__daily/__narrator___0036.wav": "assets/voice/yayi_sweet_pastry_shop__daily/__narrator___0036.wav",
+    "voice/yayi_sweet_pastry_shop__daily/ya_yi_0043.wav": "assets/voice/yayi_sweet_pastry_shop__daily/ya_yi_0043.wav",
+    "cg/ch06_ya_yi_1.jpg": "assets/cg/ch06_ya_yi_1.jpg",
+    "voice/inside_grandma_tea_house__daily/__narrator___0004.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0004.wav",
+    "voice/inside_grandma_tea_house__daily/__narrator___0007.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0007.wav",
+    "voice/inside_grandma_tea_house__daily/__narrator___0010.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0010.wav",
+    "cg/ch06_ya_yi_2.jpg": "assets/cg/ch06_ya_yi_2.jpg",
+    "voice/inside_grandma_tea_house__daily/__narrator___0031.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0031.wav",
+    "voice/inside_grandma_tea_house__daily/cang_yi_0038.wav": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0038.wav",
+    "voice/inside_grandma_tea_house__daily/__narrator___0005.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0005.wav",
+    "voice/inside_grandma_tea_house__daily/cang_yi_0009.wav": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0009.wav",
+    "voice/inside_grandma_tea_house__daily/ya_yi_0013.wav": "assets/voice/inside_grandma_tea_house__daily/ya_yi_0013.wav",
+    "voice/inside_grandma_tea_house__daily/cang_yi_0017.wav": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0017.wav",
+    "voice/inside_grandma_tea_house__daily/cang_yi_0024.wav": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0024.wav",
+    "voice/inside_grandma_tea_house__daily/cang_yi_0030.wav": "assets/voice/inside_grandma_tea_house__daily/cang_yi_0030.wav",
+    "cg/ch06_ya_yi_3.jpg": "assets/cg/ch06_ya_yi_3.jpg",
+    "voice/inside_grandma_tea_house__daily/__narrator___0041.wav": "assets/voice/inside_grandma_tea_house__daily/__narrator___0041.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0003.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0003.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0004.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0004.wav",
+    "voice/interlude_avoid_grandma_notebook/cang_yi_0005.wav": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0005.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0007.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0007.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0008.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0008.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0012.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0012.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0010.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0010.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0017.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0017.wav",
+    "voice/interlude_avoid_grandma_notebook/cang_yi_0021.wav": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0021.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0026.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0026.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0030.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0030.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0005.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0005.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0009.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0009.wav",
+    "characters/ya_yi/laugh.png": "assets/characters/ya_yi/laugh.png",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0027.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0027.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0034.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0034.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0003.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0003.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0009.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0009.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0014.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0014.wav",
+    "voice/interlude_yayi_secret_help_spirit/ya_yi_0020.wav": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0020.wav",
+    "voice/interlude_avoid_grandma_notebook/cang_yi_0014.wav": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0014.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0019.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0019.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0024.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0024.wav",
+    "voice/interlude_avoid_grandma_notebook/cang_yi_0029.wav": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0029.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0004.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0004.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0019.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0019.wav",
+    "voice/inside_grandma_tea_house__inherit/cang_yi_0026.wav": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0026.wav",
+    "voice/inside_grandma_tea_house__inherit/cang_yi_0032.wav": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0032.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0037.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0037.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0008.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0008.wav",
+    "voice/interlude_yayi_secret_help_spirit/ya_yi_0012.wav": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0012.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0019.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0019.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0015.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0015.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0002.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0002.wav",
+    "characters/ya_yi/embarrassed.png": "assets/characters/ya_yi/embarrassed.png",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0014.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0014.wav",
+    "voice/inside_grandma_tea_house__inherit/cang_yi_0024.wav": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0024.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0030.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0030.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0035.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0035.wav",
+    "voice/interlude_yayi_secret_help_spirit/ya_yi_0004.wav": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0004.wav",
+    "voice/interlude_yayi_secret_help_spirit/ya_yi_0010.wav": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0010.wav",
+    "voice/interlude_yayi_secret_help_spirit/ya_yi_0015.wav": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0015.wav",
+    "voice/interlude_avoid_grandma_notebook/cang_yi_0018.wav": "assets/voice/interlude_avoid_grandma_notebook/cang_yi_0018.wav",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0022.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0022.wav",
+    "voice/inside_grandma_tea_house__inherit/cang_yi_0010.wav": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0010.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0013.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0013.wav",
+    "characters/ya_yi/surprised.png": "assets/characters/ya_yi/surprised.png",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0038.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0038.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0018.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0018.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0024.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0024.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0004.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0004.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0009.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0009.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0018.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0018.wav",
+    "characters/ya_yi/happy.png": "assets/characters/ya_yi/happy.png",
+    "voice/interlude_avoid_grandma_notebook/__narrator___0028.wav": "assets/voice/interlude_avoid_grandma_notebook/__narrator___0028.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0003.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0003.wav",
+    "characters/ya_yi/sad.png": "assets/characters/ya_yi/sad.png",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0007.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0007.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0008.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0008.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0011.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0011.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0012.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0012.wav",
+    "voice/inside_grandma_tea_house__inherit/cang_yi_0018.wav": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0018.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0020.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0020.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0025.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0025.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0029.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0029.wav",
+    "characters/ya_yi/serious.png": "assets/characters/ya_yi/serious.png",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0017.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0017.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0023.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0023.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0003.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0003.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0008.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0008.wav",
+    "voice/old_street_outside_tea_house__day/cang_yi_0017.wav": "assets/voice/old_street_outside_tea_house__day/cang_yi_0017.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0022.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0022.wav",
+    "voice/inside_grandma_tea_house__inherit/__narrator___0031.wav": "assets/voice/inside_grandma_tea_house__inherit/__narrator___0031.wav",
+    "voice/inside_grandma_tea_house__inherit/cang_yi_0036.wav": "assets/voice/inside_grandma_tea_house__inherit/cang_yi_0036.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0006.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0006.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0011.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0011.wav",
+    "voice/interlude_yayi_secret_help_spirit/ya_yi_0021.wav": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0021.wav",
+    "voice/interlude_yayi_secret_help_spirit/__narrator___0028.wav": "assets/voice/interlude_yayi_secret_help_spirit/__narrator___0028.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0007.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0007.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0016.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0016.wav",
+    "voice/old_street_outside_tea_house__day/cang_yi_0021.wav": "assets/voice/old_street_outside_tea_house__day/cang_yi_0021.wav",
+    "voice/interlude_yayi_secret_help_spirit/ya_yi_0025.wav": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0025.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0005.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0005.wav",
+    "voice/old_street_outside_tea_house__day/cang_yi_0011.wav": "assets/voice/old_street_outside_tea_house__day/cang_yi_0011.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0019.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0019.wav",
+    "voice/old_street_outside_tea_house__day/cang_yi_0024.wav": "assets/voice/old_street_outside_tea_house__day/cang_yi_0024.wav",
+    "voice/interlude_yayi_secret_help_spirit/ya_yi_0026.wav": "assets/voice/interlude_yayi_secret_help_spirit/ya_yi_0026.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0006.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0006.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0015.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0015.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0020.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0020.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0023.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0023.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0025.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0025.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0026.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0026.wav",
+    "voice/old_street_outside_tea_house__day/cang_yi_0027.wav": "assets/voice/old_street_outside_tea_house__day/cang_yi_0027.wav"
   }
 }
