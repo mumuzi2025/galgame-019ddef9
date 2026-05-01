@@ -2768,7 +2768,7 @@
               "text": "传给凛，共担渡使职责"
             },
             {
-              "jump": "ch06_ya_yi",
+              "jump": "inside_grandma_tea_house__daily",
               "text": "传给芽衣，封存奇幻秘密"
             }
           ]
@@ -3608,7 +3608,7 @@
       {
         "scene": "tea_house_secret_choice_room__night",
         "from": "ch06_ya_yi",
-        "to": null
+        "to": "inside_grandma_tea_house__daily"
       }
     ],
     "missing_character_expressions": [],
