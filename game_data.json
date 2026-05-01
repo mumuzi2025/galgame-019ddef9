@@ -1948,21 +1948,24 @@
         },
         {
           "text": "风再次吹过，茶屋檐下挂的铜铃铛被吹得叮当作响，声音清脆得仿佛和十几年前的声响重叠在了一起。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0029.wav"
         },
         {
           "text": "外婆，我答应过你，会好好把茶屋守下去的。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/old_street_outside_tea_house__day/cang_yi_0030.wav"
         },
         {
           "text": "蒼依弯腰提起脚边的行李箱，推开门走进茶屋，木门发出吱呀的轻响，明晃晃的日光跟着她的脚步落在积了薄灰的木质地板上，细小的灰尘在光柱里慢悠悠打着转。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/old_street_outside_tea_house__day/__narrator___0031.wav"
         },
         {
           "type": "jump",
-          "target": "inside_grandma_tea_house"
+          "target": "inside_grandma_tea_house__daily"
         }
       ],
       "background": "assets/backgrounds/old_street_outside_tea_house__day.jpg",
@@ -1988,27 +1991,33 @@
         },
         {
           "text": "细密的雨丝斜斜敲在茶屋的木格窗上，檐下悬着的铜铃被海风卷得晃来晃去，叮铃的声响混着土陶炉上大麦茶的咕嘟声，漫在暖黄的棉纸灯影里。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0003.wav"
         },
         {
           "text": "今天是农历十五月圆夜，汐月町的海雾比往常沉得多，隔着磨砂玻璃望出去，只能看见外面青石板路上的灯笼晕成一片模糊的橙红光斑。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0004.wav"
         },
         {
           "text": "蒼依刚把最后一套描着山茶花纹的白瓷茶具擦干净，指尖还沾着淡淡的皂角香，身上的雾蓝改良和服沾了点炉边的热气，软乎乎的贴在小臂上。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0005.wav"
         },
         {
           "text": "墙面上挂着的旧木钟咔哒咔哒走到了八点整，厚重的钟声响过第三下，门口挂着的藏青迎客布帘被风掀起一角，带着海腥气的凉雨丝飘了进来。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0006.wav"
         },
         {
           "text": "蒼依抬眼看向门口的方向，左腕上童年芽衣送的红绳平安结突然微微发烫，她下意识抬手攥住了腕间的绳结，指尖有点发凉。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0007.wav"
         },
         {
           "text": "她从小就知道，每月十五的月圆夜，外婆留下的这间茶屋总会迎来些和常人不一样的客人，哪怕她始终对自己能看见残灵的能力心存畏惧，也从不会把上门的访客拒之门外。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0008.wav"
         },
         {
           "type": "show",
@@ -2020,7 +2029,8 @@
           "text": "（声音温软，带着点海边长大的软鼻音）欢迎光临，外面雨大，快进来避避吧。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0010.wav"
         },
         {
           "type": "hide",
@@ -2037,7 +2047,8 @@
           "text": "（声音清冽，像沾了雨的寒松）麻烦给我一杯月见茶，谢谢。",
           "type": "dialog",
           "character": "lin",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/lin_0013.wav"
         },
         {
           "type": "hide",
@@ -2054,7 +2065,8 @@
           "text": "（指尖顿了顿）月见茶？很少有客人知道这个茶单上没有的品类，你是怎么知道的？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0016.wav"
         },
         {
           "type": "hide",
@@ -2071,7 +2083,8 @@
           "text": "（指尖拂过肩头沾着雨珠的黑色连帽衫，眼神落在蒼依发间的银茶花簪上）老主顾了，以前总陪外婆来这里喝茶。",
           "type": "dialog",
           "character": "lin",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/lin_0019.wav"
         },
         {
           "type": "hide",
@@ -2088,7 +2101,8 @@
           "text": "原来是外婆的旧识啊，那你稍等，月见茶要现泡，大概等三分钟就好。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "thinking"
+          "expression": "thinking",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0022.wav"
         },
         {
           "type": "hide",
@@ -2097,11 +2111,13 @@
         },
         {
           "text": "蒼依转身走到土陶炉边，翻出柜子最里面装着月见草干花的玻璃罐，热水冲下去的瞬间，淡金色的花瓣在透明的茶壶里浮浮沉沉，散出清浅的蜜香。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0024.wav"
         },
         {
           "text": "等她端着茶托盘走回客座的时候，穿黑衣服的客人正低着头翻着她放在桌角的旧诗集，指尖夹着的炭笔在空白页上画着什么，肩头上的雨珠滴在木质地板上，晕开小小的湿痕。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0025.wav"
         },
         {
           "type": "show",
@@ -2113,7 +2129,8 @@
           "text": "你的月见茶好了，小心烫。",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0027.wav"
         },
         {
           "type": "hide",
@@ -2130,17 +2147,20 @@
           "text": "谢谢。",
           "type": "dialog",
           "character": "lin",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/lin_0030.wav"
         },
         {
           "text": "男人端起茶杯喝了一口，指尖在杯沿上顿了顿，眼神似乎柔和了一瞬。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0031.wav"
         },
         {
           "text": "味道和当年外婆泡的一模一样。",
           "type": "dialog",
           "character": "lin",
-          "expression": "normal"
+          "expression": "normal",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/lin_0032.wav"
         },
         {
           "type": "hide",
@@ -2149,7 +2169,8 @@
         },
         {
           "text": "没过多久，外面的雨小了些，男人放下压了茶钱的茶杯，拿起挂在门边的黑伞，朝蒼依点了点头就掀帘走了出去，脚步快得几乎没留下什么声响。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0034.wav"
         },
         {
           "type": "show",
@@ -2159,13 +2180,15 @@
         },
         {
           "text": "蒼依走到桌边收拾茶具，才发现客座的椅子脚边靠着一只湿透了的朱红色旧灯笼，竹制的骨架已经被雨水泡得发沉，纸面却完好无损，上面还画着一朵歪歪扭扭的山茶花。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0036.wav"
         },
         {
           "text": "哎？客人的灯笼落下了！",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0037.wav"
         },
         {
           "type": "hide",
@@ -2180,7 +2203,8 @@
         },
         {
           "text": "她连忙拿起灯笼追出去，掀开布帘的时候，外面的青石板路上已经空无一人，只有海雾裹着雨丝飘过来，凉丝丝的打在她脸上。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0040.wav"
         },
         {
           "type": "show",
@@ -2190,13 +2214,15 @@
         },
         {
           "text": "蒼依抱着湿冷的灯笼站在门口愣了几秒，低头的瞬间，她突然看见灯笼的纸面上浮着一团淡白色的雾气，雾气里隐约露出个扎着羊角辫的小女孩的影子，正眨着眼睛望着她。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0042.wav"
         },
         {
           "text": "（下意识后退半步，指尖猛地攥紧了左腕的红绳，指节都泛了白）残、残灵？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0043.wav"
         },
         {
           "type": "hide",
@@ -2211,11 +2237,12 @@
         },
         {
           "text": "挂钟的秒针咔哒响了一声，灯笼里的小女孩晃了晃小小的身子，嘴唇动了动，似乎在说着什么，海雾从门口涌进来，裹着淡金色的月见草香气，漫过了蒼依的脚踝。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0046.wav"
         },
         {
           "type": "jump",
-          "target": "old_street_outside_tea_house"
+          "target": "old_street_outside_tea_house__day"
         }
       ],
       "background": "assets/backgrounds/inside_grandma_tea_house__fullmoon.jpg",
@@ -2232,7 +2259,8 @@
         },
         {
           "text": "我把芽衣打听来的旧闻整理好放在茶桌一角，刚端起冷掉的茶喝了一口，木门被推开的轻响传来，凛站在逆光里，身影被夕阳染成暖金色。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/inside_grandma_tea_house__rin_visit/__narrator___0001.wav"
         },
         {
           "type": "jump",
@@ -2248,7 +2276,8 @@
       "commands": [
         {
           "text": "指尖还残留着素纸灯笼的磨砂触感，蒼依鬼使神差地转身走向茶屋深处那扇挂着铜锁的库房木门。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_childhood_isolated_memory/__narrator___0000.wav"
         },
         {
           "name": "se_door_squeak",
@@ -2265,7 +2294,8 @@
         },
         {
           "text": "午后的阳光从库房三米高的毛玻璃窗斜斜漏下来，灰尘在光柱里慢悠悠打转，空气里混着旧宣纸的墨香和不知从哪飘来的淡桂花甜香。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_childhood_isolated_memory/__narrator___0004.wav"
         },
         {
           "type": "show",
@@ -2275,7 +2305,8 @@
         },
         {
           "text": "她走到堆着半人高旧藤箱的木架边蹲下，指尖拂过最上层那只描着山茶花的栗色藤箱扣，铜扣已经磨得发亮，是她小时候最常翻的储物箱。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_childhood_isolated_memory/__narrator___0006.wav"
         },
         {
           "name": "se_latch_click",
@@ -2283,13 +2314,15 @@
         },
         {
           "text": "藤箱盖掀开的瞬间，一本封皮画满歪歪扭扭小桂花的涂鸦本最先滑了出来，落在她的膝头。",
-          "type": "narration"
+          "type": "narration",
+          "voice": "assets/voice/interlude_childhood_isolated_memory/__narrator___0008.wav"
         },
         {
           "text": "这是……我小学三年级的涂鸦本？",
           "type": "dialog",
           "character": "cang_yi",
-          "expression": "surprised"
+          "expression": "surprised",
+          "voice": "assets/voice/interlude_childhood_isolated_memory/cang_yi_0009.wav"
         },
         {
           "text": "她随手翻开一页，纸页上用蜡笔画着穿校服的小女孩，周围歪歪扭扭画了好几个半透明的小人轮廓，旁边还用拼音标注着「穿蓝布衫的奶奶」「扎羊角辫的小妹妹」。",
@@ -2528,7 +2561,7 @@
               "text": "立刻追上去看看巷口的是不是刚才的客人"
             },
             {
-              "jump": "inside_grandma_tea_house",
+              "jump": "inside_grandma_tea_house__daily",
               "text": "先回屋把灯笼烘干，再慢慢打听客人的下落"
             }
           ]
@@ -3510,6 +3543,75 @@
     "voice/old_street_outside_tea_house__day/__narrator___0023.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0023.wav",
     "voice/old_street_outside_tea_house__day/__narrator___0025.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0025.wav",
     "voice/old_street_outside_tea_house__day/__narrator___0026.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0026.wav",
-    "voice/old_street_outside_tea_house__day/cang_yi_0027.wav": "assets/voice/old_street_outside_tea_house__day/cang_yi_0027.wav"
+    "voice/old_street_outside_tea_house__day/cang_yi_0027.wav": "assets/voice/old_street_outside_tea_house__day/cang_yi_0027.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0029.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0029.wav",
+    "voice/old_street_outside_tea_house__day/cang_yi_0030.wav": "assets/voice/old_street_outside_tea_house__day/cang_yi_0030.wav",
+    "voice/old_street_outside_tea_house__day/__narrator___0031.wav": "assets/voice/old_street_outside_tea_house__day/__narrator___0031.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0003.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0003.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0004.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0004.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0005.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0005.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0006.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0006.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0007.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0007.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0008.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0008.wav",
+    "voice/inside_grandma_tea_house__fullmoon/cang_yi_0010.wav": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0010.wav",
+    "voice/inside_grandma_tea_house__fullmoon/cang_yi_0022.wav": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0022.wav",
+    "voice/inside_grandma_tea_house__fullmoon/lin_0030.wav": "assets/voice/inside_grandma_tea_house__fullmoon/lin_0030.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0036.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0036.wav",
+    "voice/inside_grandma_tea_house__fullmoon/cang_yi_0043.wav": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0043.wav",
+    "voice/interlude_childhood_isolated_memory/__narrator___0004.wav": "assets/voice/interlude_childhood_isolated_memory/__narrator___0004.wav",
+    "voice/inside_grandma_tea_house__fullmoon/lin_0013.wav": "assets/voice/inside_grandma_tea_house__fullmoon/lin_0013.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0024.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0024.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0031.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0031.wav",
+    "voice/inside_grandma_tea_house__fullmoon/cang_yi_0037.wav": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0037.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0046.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0046.wav",
+    "voice/interlude_childhood_isolated_memory/__narrator___0008.wav": "assets/voice/interlude_childhood_isolated_memory/__narrator___0008.wav",
+    "voice/inside_grandma_tea_house__fullmoon/cang_yi_0016.wav": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0016.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0025.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0025.wav",
+    "voice/inside_grandma_tea_house__fullmoon/lin_0032.wav": "assets/voice/inside_grandma_tea_house__fullmoon/lin_0032.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0040.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0040.wav",
+    "voice/inside_grandma_tea_house__rin_visit/__narrator___0001.wav": "assets/voice/inside_grandma_tea_house__rin_visit/__narrator___0001.wav",
+    "voice/interlude_childhood_isolated_memory/cang_yi_0009.wav": "assets/voice/interlude_childhood_isolated_memory/cang_yi_0009.wav",
+    "voice/inside_grandma_tea_house__fullmoon/lin_0019.wav": "assets/voice/inside_grandma_tea_house__fullmoon/lin_0019.wav",
+    "voice/inside_grandma_tea_house__fullmoon/cang_yi_0027.wav": "assets/voice/inside_grandma_tea_house__fullmoon/cang_yi_0027.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0034.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0034.wav",
+    "voice/inside_grandma_tea_house__fullmoon/__narrator___0042.wav": "assets/voice/inside_grandma_tea_house__fullmoon/__narrator___0042.wav",
+    "voice/interlude_childhood_isolated_memory/__narrator___0000.wav": "assets/voice/interlude_childhood_isolated_memory/__narrator___0000.wav",
+    "voice/interlude_childhood_isolated_memory/__narrator___0006.wav": "assets/voice/interlude_childhood_isolated_memory/__narrator___0006.wav"
+  },
+  "_diagnostics": {
+    "broken_jumps_fixed": [
+      {
+        "scene": "old_street_outside_tea_house__day",
+        "from": "inside_grandma_tea_house",
+        "to": "inside_grandma_tea_house__daily"
+      },
+      {
+        "scene": "inside_grandma_tea_house__fullmoon",
+        "from": "old_street_outside_tea_house",
+        "to": "old_street_outside_tea_house__day"
+      },
+      {
+        "scene": "inside_grandma_tea_house__rin_visit",
+        "from": "side_camellia_s1",
+        "to": null
+      },
+      {
+        "scene": "old_street_outside_tea_house__night",
+        "from": "inside_grandma_tea_house",
+        "to": "inside_grandma_tea_house__daily"
+      },
+      {
+        "scene": "tea_house_secret_choice_room__night",
+        "from": "ch06_lin",
+        "to": null
+      },
+      {
+        "scene": "tea_house_secret_choice_room__night",
+        "from": "ch06_ya_yi",
+        "to": null
+      }
+    ],
+    "missing_character_expressions": [],
+    "missing_scene_backgrounds": []
   }
 }
