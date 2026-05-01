@@ -1965,7 +1965,7 @@
         },
         {
           "type": "jump",
-          "target": "inside_grandma_tea_house__daily"
+          "target": "inside_grandma_tea_house__inherit"
         }
       ],
       "background": "assets/backgrounds/old_street_outside_tea_house__day.jpg",
@@ -2242,7 +2242,7 @@
         },
         {
           "type": "jump",
-          "target": "old_street_outside_tea_house__day"
+          "target": "old_street_outside_tea_house__night"
         }
       ],
       "background": "assets/backgrounds/inside_grandma_tea_house__fullmoon.jpg",
@@ -2561,7 +2561,7 @@
               "text": "立刻追上去看看巷口的是不是刚才的客人"
             },
             {
-              "jump": "inside_grandma_tea_house__daily",
+              "jump": "inside_grandma_tea_house__fullmoon",
               "text": "先回屋把灯笼烘干，再慢慢打听客人的下落"
             }
           ]
@@ -3583,12 +3583,12 @@
       {
         "scene": "old_street_outside_tea_house__day",
         "from": "inside_grandma_tea_house",
-        "to": "inside_grandma_tea_house__daily"
+        "to": "inside_grandma_tea_house__inherit"
       },
       {
         "scene": "inside_grandma_tea_house__fullmoon",
         "from": "old_street_outside_tea_house",
-        "to": "old_street_outside_tea_house__day"
+        "to": "old_street_outside_tea_house__night"
       },
       {
         "scene": "inside_grandma_tea_house__rin_visit",
@@ -3598,7 +3598,7 @@
       {
         "scene": "old_street_outside_tea_house__night",
         "from": "inside_grandma_tea_house",
-        "to": "inside_grandma_tea_house__daily"
+        "to": "inside_grandma_tea_house__fullmoon"
       },
       {
         "scene": "tea_house_secret_choice_room__night",
