@@ -3613,5 +3613,37 @@
     ],
     "missing_character_expressions": [],
     "missing_scene_backgrounds": []
-  }
+  },
+  "_warnings": [
+    {
+      "type": "jump_fixed",
+      "scene": "old_street_outside_tea_house__day",
+      "detail": "已自动修复 jump：inside_grandma_tea_house → inside_grandma_tea_house__inherit"
+    },
+    {
+      "type": "jump_fixed",
+      "scene": "inside_grandma_tea_house__fullmoon",
+      "detail": "已自动修复 jump：old_street_outside_tea_house → old_street_outside_tea_house__night"
+    },
+    {
+      "type": "jump_unresolved",
+      "scene": "inside_grandma_tea_house__rin_visit",
+      "detail": "跳转目标无法解析：side_camellia_s1（请在编辑器中改为已存在的 scene_key）"
+    },
+    {
+      "type": "jump_fixed",
+      "scene": "old_street_outside_tea_house__night",
+      "detail": "已自动修复 jump：inside_grandma_tea_house → inside_grandma_tea_house__fullmoon"
+    },
+    {
+      "type": "jump_unresolved",
+      "scene": "tea_house_secret_choice_room__night",
+      "detail": "跳转目标无法解析：ch06_lin（请在编辑器中改为已存在的 scene_key）"
+    },
+    {
+      "type": "jump_fixed",
+      "scene": "tea_house_secret_choice_room__night",
+      "detail": "已自动修复 jump：ch06_ya_yi → inside_grandma_tea_house__daily"
+    }
+  ]
 }
